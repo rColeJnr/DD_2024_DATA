@@ -1,0 +1,183 @@
+[04:00:10] This is prokka 1.14.6
+[04:00:10] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[04:00:10] Homepage is https://github.com/tseemann/prokka
+[04:00:10] Local time is Thu Nov  7 04:00:10 2024
+[04:00:10] You are rcolejnr
+[04:00:10] Operating system is darwin
+[04:00:10] You have BioPerl 1.7.8
+[04:00:11] System has 8 cores.
+[04:00:11] Will use maximum of 8 cores.
+[04:00:11] Annotating as >>> Viruses <<<
+[04:00:11] Generating locus_tag from 'scaffolds.fasta' contents.
+[04:00:11] Setting --locustag IHOJAPDM from MD5 2183a9d60b3bda5df980b3828296a2b5
+[04:00:11] Creating new output folder: PROKKA_11072024
+[04:00:11] Running: mkdir -p PROKKA_11072024
+[04:00:11] Using filename prefix: PROKKA_11072024.XXX
+[04:00:11] Setting HMMER_NCPU=1
+[04:00:11] Writing log to: PROKKA_11072024/PROKKA_11072024.log
+[04:00:11] Command: /opt/homebrew/bin/prokka --kingdom Viruses scaffolds.fasta contigs.fasta
+[04:00:11] Appending to PATH: /opt/homebrew/Cellar/prokka/1.14.6_1/bin
+[04:00:11] Looking for 'aragorn' - found /opt/homebrew/bin/aragorn
+[04:00:11] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[04:00:11] Looking for 'barrnap' - found /opt/homebrew/bin/barrnap
+[04:00:11] Determined barrnap version is 000009 from 'barrnap 0.9'
+[04:00:11] Looking for 'blastp' - found /opt/homebrew/bin/blastp
+[04:00:11] Determined blastp version is 002016 from 'blastp: 2.16.0+'
+[04:00:11] Looking for 'cmpress' - found /opt/homebrew/bin/cmpress
+[04:00:11] Determined cmpress version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[04:00:11] Looking for 'cmscan' - found /opt/homebrew/bin/cmscan
+[04:00:11] Determined cmscan version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[04:00:11] Looking for 'egrep' - found /usr/bin/egrep
+[04:00:11] Looking for 'find' - found /usr/bin/find
+[04:00:11] Looking for 'grep' - found /usr/bin/grep
+[04:00:11] Looking for 'hmmpress' - found /opt/homebrew/bin/hmmpress
+[04:00:11] Determined hmmpress version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[04:00:11] Looking for 'hmmscan' - found /opt/homebrew/bin/hmmscan
+[04:00:11] Determined hmmscan version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[04:00:11] Looking for 'java' - found /opt/homebrew/opt/openjdk/bin/java
+[04:00:11] Looking for 'makeblastdb' - found /opt/homebrew/bin/makeblastdb
+[04:00:11] Determined makeblastdb version is 002016 from 'makeblastdb: 2.16.0+'
+[04:00:11] Looking for 'minced' - found /opt/homebrew/bin/minced
+[04:00:11] Determined minced version is 004002 from 'minced 0.4.2'
+[04:00:11] Looking for 'parallel' - found /opt/homebrew/bin/parallel
+[04:00:11] Determined parallel version is 20241022 from 'GNU parallel 20241022'
+[04:00:11] Looking for 'prodigal' - found /opt/homebrew/bin/prodigal
+[04:00:11] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[04:00:11] Looking for 'prokka-genbank_to_fasta_db' - found /opt/homebrew/bin/prokka-genbank_to_fasta_db
+[04:00:11] Looking for 'sed' - found /usr/bin/sed
+[04:00:11] Looking for 'tbl2asn' - found /usr/local/bin/tbl2asn
+[04:00:11] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[04:00:11] Using genetic code table 1.
+[04:00:11] Loading and checking input file: scaffolds.fasta
+[04:00:11] Wrote 487 contigs totalling 5318472 bp.
+[04:00:11] Predicting tRNAs and tmRNAs
+[04:00:11] Running: aragorn -l -gc1  -w PROKKA_11072024\/PROKKA_11072024\.fna
+[04:00:13] 1 tRNA-Leu [249274,249360] 35 (cag)
+[04:00:13] 2 tRNA-Leu [249389,249475] 35 (cag)
+[04:00:13] 3 tRNA-Leu [249510,249596] 35 (cag)
+[04:00:13] 1 tRNA-Ser c[176772,176852] 38 (gga)
+[04:00:13] 2 tRNA-Thr c[264337,264412] 34 (cgt)
+[04:00:13] 1 tRNA-Pro c[54178,54254] 35 (ggg)
+[04:00:13] 1 tRNA-Val [103798,103874] 35 (gac)
+[04:00:13] 2 tRNA-Val [103879,103955] 35 (gac)
+[04:00:13] 1 tRNA-Gly [115402,115475] 33 (ccc)
+[04:00:13] 1 tRNA-Ser [156414,156501] 35 (gga)
+[04:00:13] 1 tRNA-Leu [93393,93479] 35 (gag)
+[04:00:13] 2 tRNA-Met [97260,97336] 35 (cat)
+[04:00:13] 1 tRNA-Ser c[68278,68365] 35 (gga)
+[04:00:13] 1 tRNA-Gln c[87833,87907] 33 (ctg)
+[04:00:13] 2 tRNA-Gln c[87945,88019] 33 (ctg)
+[04:00:13] 3 tRNA-Met c[88068,88144] 35 (cat)
+[04:00:13] 4 tRNA-Gln c[88160,88234] 33 (ttg)
+[04:00:13] 5 tRNA-Gln c[88269,88343] 33 (ttg)
+[04:00:13] 6 tRNA-Leu c[88367,88451] 35 (tag)
+[04:00:13] 7 tRNA-Met c[88460,88536] 35 (cat)
+[04:00:13] 1 tRNA-Ser c[47400,47487] 35 (tga)
+[04:00:13] 1 tRNA-Leu c[56956,57042] 35 (taa)
+[04:00:13] 2 tRNA-Cys c[57055,57128] 33 (gca)
+[04:00:13] 3 tRNA-Gly c[57183,57258] 34 (gcc)
+[04:00:13] 1 tRNA-Ser [24155,24247] 35 (gct)
+[04:00:13] 2 tRNA-Arg [24251,24327] 35 (acg)
+[04:00:13] 3 tRNA-Met [56729,56804] 34 (cat)
+[04:00:13] 4 tmRNA c[74089,74451] 90,125 ANDENYALAA**
+[04:00:13] 1 tRNA-Met [72131,72206] 34 (cat)
+[04:00:13] 1 tRNA-Pro c[56018,56094] 35 (tgg)
+[04:00:13] 2 tRNA-Leu c[56137,56223] 35 (cag)
+[04:00:13] 3 tRNA-His c[56244,56319] 34 (gtg)
+[04:00:13] 4 tRNA-Arg c[56378,56454] 35 (ccg)
+[04:00:13] 5 tRNA-Trp c[91798,91873] 34 (cca)
+[04:00:13] 1 tRNA-SeC c[1641,1735] 35 (tca)
+[04:00:13] 1 tRNA-Gly c[36077,36152] 34 (gcc)
+[04:00:13] 2 tRNA-Gly c[36189,36264] 34 (gcc)
+[04:00:13] 3 tRNA-Gly c[36301,36376] 34 (gcc)
+[04:00:13] 1 tRNA-Pro [57754,57830] 35 (cgg)
+[04:00:13] 1 tRNA-Ser c[6935,7024] 35 (cga)
+[04:00:13] 2 tRNA-Asn [8016,8091] 34 (gtt)
+[04:00:13] 3 tRNA-Asn c[47907,47982] 34 (gtt)
+[04:00:13] 4 tRNA-Asn [49731,49806] 34 (gtt)
+[04:00:13] 5 tRNA-Asn [52140,52215] 34 (gtt)
+[04:00:13] 1 tRNA-Tyr c[16401,16485] 35 (gta)
+[04:00:13] 2 tRNA-Tyr c[16520,16604] 35 (gta)
+[04:00:13] 3 tRNA-Met [56628,56703] 34 (cat)
+[04:00:13] 4 tRNA-Arg [56711,56787] 35 (tcg)
+[04:00:13] 5 tRNA-Arg [56801,56877] 35 (tct)
+[04:00:13] 1 tRNA-Ala c[48370,48445] 34 (ggc)
+[04:00:13] 2 tRNA-Ala c[48485,48560] 34 (ggc)
+[04:00:13] 3 tRNA-Val [51260,51335] 34 (tac)
+[04:00:13] 4 tRNA-Val [51382,51457] 34 (tac)
+[04:00:13] 1 tRNA-Arg c[7453,7529] 35 (tct)
+[04:00:13] 1 tRNA-Arg [17160,17234] 34 (cct)
+[04:00:13] 1 tRNA-Asp c[24464,24540] 35 (gtc)
+[04:00:13] 1 tRNA-Leu [25620,25704] 35 (caa)
+[04:00:13] 1 tRNA-Lys [28381,28456] 34 (ttt)
+[04:00:13] 1 tRNA-Thr [3682,3757] 34 (tgt)
+[04:00:13] 2 tRNA-Tyr [3766,3850] 35 (gta)
+[04:00:13] 3 tRNA-Gly [3967,4041] 34 (tcc)
+[04:00:13] 4 tRNA-Thr [4048,4123] 34 (ggt)
+[04:00:13] 1 tRNA-Arg c[4057,4133] 35 (tct)
+[04:00:13] 2 tRNA-Arg c[4147,4223] 35 (tcg)
+[04:00:13] 1 tRNA-Phe c[941,1016] 34 (gaa)
+[04:00:13] 1 tRNA-Ala c[381,456] 34 (tgc)
+[04:00:13] 2 tRNA-Ile c[499,575] 35 (gat)
+[04:00:13] 1 tRNA-Thr c[105,180] 34 (ggt)
+[04:00:13] 1 tRNA-Glu [1,76] 35 (ttc)
+[04:00:13] 1 tRNA-Arg [36,112] 35 (tcg)
+[04:00:13] Found 70 tRNAs
+[04:00:13] Disabling rRNA search: --kingdom=Viruses or --norrna=0
+[04:00:13] Skipping ncRNA search, enable with --rfam if desired.
+[04:00:13] Total of 69 tRNA + rRNA features
+[04:00:13] Searching for CRISPR repeats
+[04:00:13] CRISPR1 NODE_29_length_60617_cov_77.717001 16926 with 14 spacers
+[04:00:13] Found 1 CRISPRs
+[04:00:13] Predicting coding sequences
+[04:00:13] Contigs total 5318472 bp, so using single mode
+[04:00:13] Running: prodigal -i PROKKA_11072024\/PROKKA_11072024\.fna -c -m -g 1 -p single -f sco -q
+[04:00:16] Found 4784 CDS
+[04:00:16] Connecting features back to sequences
+[04:00:16] Not using genus-specific database. Try --usegenus to enable it.
+[04:00:16] Annotating CDS, please be patient.
+[04:00:16] Will use 8 CPUs for similarity searching.
+[04:00:17] There are still 4784 unannotated CDS left (started with 4784)
+[04:00:17] Will use blast to search against /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Viruses/sprot with 8 CPUs
+[04:00:17] Running: cat PROKKA_11072024\/PROKKA_11072024\.sprot\.tmp\.14197\.faa | parallel --gnu --plain -j 8 --block 94177 --recstart '>' --pipe blastp -query - -db /opt/homebrew/Cellar/prokka/1.14.6_1/db/kingdom/Viruses/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > PROKKA_11072024\/PROKKA_11072024\.sprot\.tmp\.14197\.blast 2> /dev/null
+[04:00:27] Modify product: Probable portal protein => putative portal protein
+[04:00:27] Modify product: Probable zinc-type alcohol dehydrogenase-like protein L498 => putative zinc-type alcohol dehydrogenase-like protein L498
+[04:00:27] Modify product: Probable zinc-type alcohol dehydrogenase-like protein L498 => putative zinc-type alcohol dehydrogenase-like protein L498
+[04:00:28] Modify product: Probable zinc-type alcohol dehydrogenase-like protein L498 => putative zinc-type alcohol dehydrogenase-like protein L498
+[04:00:28] Cleaned 4 /product names
+[04:00:28] Deleting unwanted file: PROKKA_11072024/PROKKA_11072024.sprot.tmp.14197.faa
+[04:00:28] Deleting unwanted file: PROKKA_11072024/PROKKA_11072024.sprot.tmp.14197.blast
+[04:00:28] Labelling remaining 4681 proteins as 'hypothetical protein'
+[04:00:28] Found 50 unique /gene codes.
+[04:00:28] Fixed 3 duplicate /gene - gin_1 gin_2 gin_3
+[04:00:28] Fixed 2 duplicate /gene - U_1 U_2
+[04:00:28] Fixed 2 duplicate /gene - gam_1 gam_2
+[04:00:28] Fixed 2 duplicate /gene - cro_1 cro_2
+[04:00:28] Fixed 5 duplicate /gene - R_1 R_2 R_3 R_4 R_5
+[04:00:28] Fixed 3 duplicate /gene - tfa_1 tfa_2 tfa_3
+[04:00:28] Fixed 2 duplicate /gene - S_1 S_2
+[04:00:28] Fixed 2 duplicate /gene - B_1 B_2
+[04:00:28] Fixed 2 duplicate /gene - FII_1 FII_2
+[04:00:28] Fixed 3 duplicate /gene - G_1 G_2 G_3
+[04:00:28] Fixed 5 duplicate /gene - Rz_1 Rz_2 Rz_3 Rz_4 Rz_5
+[04:00:28] Fixed 2 duplicate /gene - bet_1 bet_2
+[04:00:28] Fixed 2 duplicate /gene - I4L_1 I4L_2
+[04:00:28] Fixed 2 duplicate /gene - Nu1_1 Nu1_2
+[04:00:28] Fixed 3 duplicate /gene - E_1 E_2 E_3
+[04:00:28] Fixed 3 duplicate /gene - V_1 V_2 V_3
+[04:00:28] Fixed 3 duplicate /gene - int_1 int_2 int_3
+[04:00:28] Fixed 2 duplicate /gene - A_1 A_2
+[04:00:28] Fixed 3 duplicate /gene - exo_1 exo_2 exo_3
+[04:00:28] Fixed 2 duplicate /gene - Q_1 Q_2
+[04:00:28] Fixed 2 duplicate /gene - C_1 C_2
+[04:00:28] Fixed 2 duplicate /gene - cI_1 cI_2
+[04:00:28] Fixed 3 duplicate /gene - T_1 T_2 T_3
+[04:00:28] Fixed 2 duplicate /gene - bnrdF_1 bnrdF_2
+[04:00:28] Fixed 24 colliding /gene names.
+[04:00:28] Adding /locus_tag identifiers
+[04:00:28] Assigned 4854 locus_tags to CDS and RNA features.
+[04:00:28] Writing outputs to PROKKA_11072024/
+[04:00:29] Generating annotation statistics file
+[04:00:29] Generating Genbank and Sequin files
+[04:00:29] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z PROKKA_11072024\/PROKKA_11072024\.err -i PROKKA_11072024\/PROKKA_11072024\.fsa 2> /dev/null
+[04:00:40] Could not run command: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z PROKKA_11072024\/PROKKA_11072024\.err -i PROKKA_11072024\/PROKKA_11072024\.fsa 2> /dev/null
