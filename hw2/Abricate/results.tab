@@ -1,0 +1,44 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+PROKKA_11072024.ffn	IHOJAPDM_02078	1	1233	+	mdf(A)_1	1-1233/1233	===============	0/0	100.00	98.46	resfinder	Y08743	mdf(A)	
+PROKKA_11072024.ffn	IHOJAPDM_04311	1	876	+	blaCTX-M-15_1	1-876/876	===============	0/0	100.00	100.00	resfinder	AY044436	blaCTX-M-15	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+PROKKA_11072024.ffn	IHOJAPDM_04625	1	761	+	sul1_11	1-761/882	=============..	0/0	86.28	100.00	resfinder	DQ914960	sul1	Sulfamethoxazole
+PROKKA_11072024.ffn	IHOJAPDM_04689	1	837	+	aph(6)-Id_1	1-837/837	===============	0/0	100.00	100.00	resfinder	M28829	aph(6)-Id	Streptomycin
+PROKKA_11072024.ffn	IHOJAPDM_04691	1	816	+	sul2_3	1-816/816	===============	0/0	100.00	100.00	resfinder	HQ840942	sul2	Sulfamethoxazole
+PROKKA_11072024.ffn	IHOJAPDM_04721	1	1247	+	tet(A)_6	1-1247/1275	===============	0/0	97.80	100.00	resfinder	AF534183	tet(A)	Doxycycline;Tetracycline
+PROKKA_11072024.ffn	IHOJAPDM_04802	1	861	+	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin
+PROKKA_11072024.fna	NODE_126_length_1444_cov_193.970482	437	1297	+	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin
+PROKKA_11072024.fna	NODE_12_length_126949_cov_76.939020	26089	27321	+	mdf(A)_1	1-1233/1233	===============	0/0	100.00	98.46	resfinder	Y08743	mdf(A)	
+PROKKA_11072024.fna	NODE_49_length_27300_cov_87.156322	23985	24860	-	blaCTX-M-15_1	1-876/876	===============	0/0	100.00	100.00	resfinder	AY044436	blaCTX-M-15	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+PROKKA_11072024.fna	NODE_72_length_7425_cov_53.053189	56	843	-	sul1_5	1-788/867	==============.	0/0	90.89	99.87	resfinder	EU780013	sul1	Sulfamethoxazole
+PROKKA_11072024.fna	NODE_72_length_7425_cov_53.053189	1287	1860	-	dfrA7_5	1-570/570	========/======	3/4	100.00	98.78	resfinder	AJ419170	dfrA7	Trimethoprim
+PROKKA_11072024.fna	NODE_86_length_4495_cov_44.439189	63	899	-	aph(6)-Id_1	1-837/837	===============	0/0	100.00	100.00	resfinder	M28829	aph(6)-Id	Streptomycin
+PROKKA_11072024.fna	NODE_86_length_4495_cov_44.439189	899	1702	-	aph(3'')-Ib_5	1-804/804	===============	0/0	100.00	100.00	resfinder	AF321551	aph(3'')-Ib	Streptomycin
+PROKKA_11072024.fna	NODE_86_length_4495_cov_44.439189	1763	2578	-	sul2_3	1-816/816	===============	0/0	100.00	100.00	resfinder	HQ840942	sul2	Sulfamethoxazole
+PROKKA_11072024.fna	NODE_92_length_4054_cov_29.340585	984	2230	-	tet(A)_6	1-1247/1275	===============	0/0	97.80	100.00	resfinder	AF534183	tet(A)	Doxycycline;Tetracycline
+PROKKA_11072024.fsa	NODE_126_length_1444_cov_193.970482	437	1297	+	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin
+PROKKA_11072024.fsa	NODE_12_length_126949_cov_76.939020	26089	27321	+	mdf(A)_1	1-1233/1233	===============	0/0	100.00	98.46	resfinder	Y08743	mdf(A)	
+PROKKA_11072024.fsa	NODE_49_length_27300_cov_87.156322	23985	24860	-	blaCTX-M-15_1	1-876/876	===============	0/0	100.00	100.00	resfinder	AY044436	blaCTX-M-15	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+PROKKA_11072024.fsa	NODE_72_length_7425_cov_53.053189	56	843	-	sul1_5	1-788/867	==============.	0/0	90.89	99.87	resfinder	EU780013	sul1	Sulfamethoxazole
+PROKKA_11072024.fsa	NODE_72_length_7425_cov_53.053189	1287	1860	-	dfrA7_5	1-570/570	========/======	3/4	100.00	98.78	resfinder	AJ419170	dfrA7	Trimethoprim
+PROKKA_11072024.fsa	NODE_86_length_4495_cov_44.439189	63	899	-	aph(6)-Id_1	1-837/837	===============	0/0	100.00	100.00	resfinder	M28829	aph(6)-Id	Streptomycin
+PROKKA_11072024.fsa	NODE_86_length_4495_cov_44.439189	899	1702	-	aph(3'')-Ib_5	1-804/804	===============	0/0	100.00	100.00	resfinder	AF321551	aph(3'')-Ib	Streptomycin
+PROKKA_11072024.fsa	NODE_86_length_4495_cov_44.439189	1763	2578	-	sul2_3	1-816/816	===============	0/0	100.00	100.00	resfinder	HQ840942	sul2	Sulfamethoxazole
+PROKKA_11072024.fsa	NODE_92_length_4054_cov_29.340585	984	2230	-	tet(A)_6	1-1247/1275	===============	0/0	97.80	100.00	resfinder	AF534183	tet(A)	Doxycycline;Tetracycline
+PROKKA_11072024.gbf	NODE_126_length_1444_cov_193.9704821444	437	1297	+	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin
+PROKKA_11072024.gbf	NODE_12_length_126949_cov_76.939020126949	26089	27321	+	mdf(A)_1	1-1233/1233	===============	0/0	100.00	98.46	resfinder	Y08743	mdf(A)	
+PROKKA_11072024.gbf	NODE_49_length_27300_cov_87.15632227300	23985	24860	-	blaCTX-M-15_1	1-876/876	===============	0/0	100.00	100.00	resfinder	AY044436	blaCTX-M-15	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+PROKKA_11072024.gbf	NODE_72_length_7425_cov_53.0531897425	56	843	-	sul1_5	1-788/867	==============.	0/0	90.89	99.87	resfinder	EU780013	sul1	Sulfamethoxazole
+PROKKA_11072024.gbf	NODE_72_length_7425_cov_53.0531897425	1287	1860	-	dfrA7_5	1-570/570	========/======	3/4	100.00	98.78	resfinder	AJ419170	dfrA7	Trimethoprim
+PROKKA_11072024.gbf	NODE_86_length_4495_cov_44.4391894495	63	899	-	aph(6)-Id_1	1-837/837	===============	0/0	100.00	100.00	resfinder	M28829	aph(6)-Id	Streptomycin
+PROKKA_11072024.gbf	NODE_86_length_4495_cov_44.4391894495	899	1702	-	aph(3'')-Ib_5	1-804/804	===============	0/0	100.00	100.00	resfinder	AF321551	aph(3'')-Ib	Streptomycin
+PROKKA_11072024.gbf	NODE_86_length_4495_cov_44.4391894495	1763	2578	-	sul2_3	1-816/816	===============	0/0	100.00	100.00	resfinder	HQ840942	sul2	Sulfamethoxazole
+PROKKA_11072024.gbf	NODE_92_length_4054_cov_29.3405854054	984	2230	-	tet(A)_6	1-1247/1275	===============	0/0	97.80	100.00	resfinder	AF534183	tet(A)	Doxycycline;Tetracycline
+PROKKA_11072024.gff	NODE_126_LENGTH_1444_COV_193.970482	437	1297	+	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin
+PROKKA_11072024.gff	NODE_12_LENGTH_126949_COV_76.939020	26089	27321	+	mdf(A)_1	1-1233/1233	===============	0/0	100.00	98.46	resfinder	Y08743	mdf(A)	
+PROKKA_11072024.gff	NODE_49_LENGTH_27300_COV_87.156322	23985	24860	-	blaCTX-M-15_1	1-876/876	===============	0/0	100.00	100.00	resfinder	AY044436	blaCTX-M-15	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+PROKKA_11072024.gff	NODE_72_LENGTH_7425_COV_53.053189	56	843	-	sul1_5	1-788/867	==============.	0/0	90.89	99.87	resfinder	EU780013	sul1	Sulfamethoxazole
+PROKKA_11072024.gff	NODE_72_LENGTH_7425_COV_53.053189	1287	1860	-	dfrA7_5	1-570/570	========/======	3/4	100.00	98.78	resfinder	AJ419170	dfrA7	Trimethoprim
+PROKKA_11072024.gff	NODE_86_LENGTH_4495_COV_44.439189	63	899	-	aph(6)-Id_1	1-837/837	===============	0/0	100.00	100.00	resfinder	M28829	aph(6)-Id	Streptomycin
+PROKKA_11072024.gff	NODE_86_LENGTH_4495_COV_44.439189	899	1702	-	aph(3'')-Ib_5	1-804/804	===============	0/0	100.00	100.00	resfinder	AF321551	aph(3'')-Ib	Streptomycin
+PROKKA_11072024.gff	NODE_86_LENGTH_4495_COV_44.439189	1763	2578	-	sul2_3	1-816/816	===============	0/0	100.00	100.00	resfinder	HQ840942	sul2	Sulfamethoxazole
+PROKKA_11072024.gff	NODE_92_LENGTH_4054_COV_29.340585	984	2230	-	tet(A)_6	1-1247/1275	===============	0/0	97.80	100.00	resfinder	AF534183	tet(A)	Doxycycline;Tetracycline
