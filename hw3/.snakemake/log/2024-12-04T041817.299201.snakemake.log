@@ -1,0 +1,10 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Relative file path './test_data/SRR31122807_1.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Relative file path './test_data/SRR31122807_2.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Relative file path './test_data/SRR31122807_1.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Relative file path './test_data/SRR31122807_2.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+MissingInputException in rule all in file /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/Snakefile, line 20:
+Missing input files for rule all:
+    affected files:
+        /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/SRR31122807.fasta

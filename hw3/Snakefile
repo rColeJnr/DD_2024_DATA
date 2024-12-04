@@ -1,63 +1,135 @@
 import os
-import pandas as pandas
+import pandas as pd
 
-# samples_file = os.path.abspath("./samples.csv")
+samples_file = os.path.abspath("./samples.csv")
 
-# samples_df = pd.read_csv(samples_file)
+samples_df = pd.read_csv(samples_file)
 
-# sample_reads = {row['sample_id']: (row['read_1'], row['read_2']) for idx, row in samples_df}
+sample_reads = {row['sample_id']: (row['read_1'], row['read_2']) for idx, row in samples_df.iterrows()}
 
 read_1 = os.path.abspath('./test_data/SRR31122807_1.fastq.gz')
 read_2 = os.path.abspath('./test_data/SRR31122807_2.fastq.gz')
 
+
 fastqc_out = os.path.abspath("./test_output/fastqc")
 fastp_out = os.path.abspath("./test_output/fastp")
+spades_out = os.path.abspath("./test_output/spades")
+quast_out = os.path.abspath("./test_output/quast")
+prokka_out = os.path.abspath("./test_output/prokka")
+abricate_out = os.path.abspath("./test_output/abricate")
 prefix = "SRR31122807"
 prefix_trimmed = "SRR31122807_trim"
+
 
 rule all:
     input:
         fastqc_results = f'{fastqc_out}/{prefix}_1_fastqc.html',
-        fastp_results = f'{fastp_out}/{prefix_trimmed}_1.fastq.gz',
-        fastqc_trim_results = f'{fastqc_out}/{prefix_trimmed}_1_fastqc.html',
+        fastp_results = f"{fastp_out}/{prefix_trimmed}_1.fastq.gz",
+        fasqc_trim_results = f'{fastqc_out}/{prefix_trimmed}_1_fastqc.html',
+        spades_resutls = f"{spades_out}/contigs.fasta",
+        quast_resutls = f"{quast_out}/report.html",
+        prokka_results = f'{prokka_out}/PROKKA_12042024.gbf',
+        abricate_results = f'{abricate_out}'
+
+# сначала хотим проверить качество исходных данных
 
 rule fastqc_raw:
-    input: 
+    input:
         in_1 = read_1,
         in_2 = read_2
     conda: "./envs/fastqc.yaml"
     output:
         fastqc_raw_out_html_1 = f'{fastqc_out}/{prefix}_1_fastqc.html',
-        fastqc_raw_out_zip_1 = f'{fastqc_out}/{prefix}_1_fastqc.zip',
+        fatqc_raw_out_zip_1 = f'{fastqc_out}/{prefix}_1_fastqc.zip',
         fastqc_raw_out_html_2 = f'{fastqc_out}/{prefix}_2_fastqc.html',
-        fastqc_raw_out_zip_2 = f'{fastqc_out}/{prefix}_2_fastqc.zip'
-    params:
+        fatqc_raw_out_zip_2 = f'{fastqc_out}/{prefix}_2_fastqc.zip'
+    params: 
         fastqc_outdir = fastqc_out
     shell:
-        "fastqc {input.in_1} {input.in_2} -o {params.fastqc_outdir}"
+        """fastqc {input.in_1} {input.in_2} -o {params.fastqc_outdir}"""
 
+
+# потом хотим провети тримминг
 rule fastqc_trimming:
     input:
         in_1 = read_1,
         in_2 = read_2
-    conda: "./envs/fastqc.yaml"
+    conda: "./envs/fastp.yaml"
     output:
-        fastp_out_1 = f'{fastp_out}/{prefix_trimmed}_1.fastq.gz',
-        fastp_out_2 = f'{fastp_out}/{prefix_trimmed}_2.fastq.gz',
+        fastp_out_1 = f"{fastp_out}/{prefix_trimmed}_1.fastq.gz",
+        fastp_out_2 = f"{fastp_out}/{prefix_trimmed}_2.fastq.gz"
     shell:
         "fastp -i {input.in_1} -I {input.in_2} -o {output.fastp_out_1} -O {output.fastp_out_2}"
 
+
+# потом хотим проверить качетсво данных после триммингп
+
 rule fastqc_trimmed:
-    input: 
+    input:
         in_1 = rules.fastqc_trimming.output.fastp_out_1,
         in_2 = rules.fastqc_trimming.output.fastp_out_2
     conda: "./envs/fastqc.yaml"
     output:
         fastqc_raw_out_html_1 = f'{fastqc_out}/{prefix_trimmed}_1_fastqc.html',
-        fastqc_raw_out_zip_1 = f'{fastqc_out}/{prefix_trimmed}_1_fastqc.zip',
+        fatqc_raw_out_zip_1 = f'{fastqc_out}/{prefix_trimmed}_1_fastqc.zip',
         fastqc_raw_out_html_2 = f'{fastqc_out}/{prefix_trimmed}_2_fastqc.html',
-        fastqc_raw_out_zip_2 = f'{fastqc_out}/{prefix_trimmed}_2_fastqc.zip'
-    params:
+        fatqc_raw_out_zip_2 = f'{fastqc_out}/{prefix_trimmed}_2_fastqc.zip'
+    params: 
         fastqc_outdir = fastqc_out
     shell:
         "fastqc {input.in_1} {input.in_2} -o {params.fastqc_outdir}"
+
+rule spades:
+    input:
+        in_1 = rules.fastqc_trimming.output.fastp_out_1,
+        in_2 = rules.fastqc_trimming.output.fastp_out_2
+    conda: "./envs/spades.yaml"
+    output:
+        contigs_output = f'{spades_out}/contigs.fasta',
+        scaffolds_output = f'{spades_out}/scaffolds.fasta',
+    params: 
+        output_dir = spades_out
+    shell:
+        "spades.py -1 {input.in_1} -2 {input.in_2} -o {params.output_dir}"
+
+rule quast:
+    input:
+        in_1 = rules.spades.output.scaffolds_output,
+        in_2 = rules.spades.output.contigs_output
+    conda: "./envs/quast.yaml"
+    output:
+        report_output = f'{quast_out}/report.html',
+        icarus_output = f'{quast_out}/icarus.html',
+    params: 
+        output_dir = quast_out
+    shell:
+        "quast.py -r {input.in_1} {input.in_2} -o {params.output_dir}"
+
+rule prokka:
+    input:
+        in_1 = rules.spades.output.scaffolds_output,
+        in_2 = rules.spades.output.contigs_output
+    conda: "./envs/prokka.yaml"
+    output:
+        prokka_output_1 = f'{prokka_out}/PROKKA_12042024.gbf',
+        prokka_output_2 = f'{prokka_out}/PROKKA_12042024.gff',
+        prokka_output_3 = f'{prokka_out}/PROKKA_12042024.fsa',
+        prokka_output_4 = f'{prokka_out}/PROKKA_12042024.fna',
+    params: 
+        output_dir = prokka_out
+    shell:
+        "prokka --kingdom Viruses {input.in_1} {input.in_2} -o {params.output_dir} --force"
+
+rule abricate:
+    input:
+        in_1 = rules.prokka.output.prokka_output_1,
+        in_2 = rules.prokka.output.prokka_output_2,
+        in_3 = rules.prokka.output.prokka_output_3,
+        in_4 = rules.prokka.output.prokka_output_4,
+    conda: "./envs/abricate.yaml"
+    output:
+        abricate_output = f'{abricate_out}'
+    shell:
+        "abricate --db ncbi --db resfinder --quiet {input.in_1} {input.in_2} {input.in_3} {input.in_4} > results.tab"
+
+    

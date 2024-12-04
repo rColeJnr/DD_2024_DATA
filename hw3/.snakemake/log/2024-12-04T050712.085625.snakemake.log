@@ -1,0 +1,106 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+all                    1
+fastqc_raw             1
+fastqc_trimmed         1
+fastqc_trimming        1
+prokka                 1
+quast                  1
+spades                 1
+total                  7
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Dec  4 05:07:12 2024]
+localrule fastqc_raw:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_1_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_1_fastqc.zip, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_2_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_2_fastqc.zip
+    jobid: 1
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_1_fastqc.html
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+
+[Wed Dec  4 05:07:12 2024]
+localrule fastqc_trimming:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz
+    jobid: 2
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+[Wed Dec  4 05:07:13 2024]
+Finished job 2.
+1 of 7 steps (14%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Dec  4 05:07:13 2024]
+localrule fastqc_trimmed:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_trim_1_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_trim_1_fastqc.zip, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_trim_2_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_trim_2_fastqc.zip
+    jobid: 3
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_trim_1_fastqc.html; Input files updated by another job: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+
+[Wed Dec  4 05:07:13 2024]
+localrule spades:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta
+    jobid: 4
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta; Input files updated by another job: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+[Wed Dec  4 05:07:18 2024]
+Finished job 1.
+2 of 7 steps (29%) done
+[Wed Dec  4 05:07:18 2024]
+Finished job 3.
+3 of 7 steps (43%) done
+[Wed Dec  4 05:09:24 2024]
+Finished job 4.
+4 of 7 steps (57%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Dec  4 05:09:24 2024]
+localrule quast:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/report.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/icarus.html
+    jobid: 5
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/report.html; Input files updated by another job: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+
+[Wed Dec  4 05:09:24 2024]
+localrule prokka:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024.gbf
+    jobid: 6
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024.gbf; Input files updated by another job: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+[Wed Dec  4 05:09:24 2024]
+Error in rule prokka:
+    jobid: 6
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024.gbf
+    shell:
+        prokka --kingdom Viruses /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta -o /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Dec  4 05:09:24 2024]
+Finished job 5.
+5 of 7 steps (71%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-12-04T050712.085625.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

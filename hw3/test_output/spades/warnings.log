@@ -1,0 +1,8 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:00.001     1M / 12M   WARN    General                 (memory_limit.cpp          :  53)   Failed to limit memory to 250 Gb, setrlimit(2) call failed, errno = 22 (Invalid argument). Watch your memory consumption!
+ * 0:00:05.037     3M / 26M   WARN    General                 (kmer_coverage_model.cpp   : 219)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:00:05.499     3M / 26M   WARN    General                 (kmer_coverage_model.cpp   : 367)   Failed to determine erroneous kmer threshold. Threshold set to: 18
+ * 0:00:06.524     9M / 30M   WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 1
+ * 0:00:09.767    13M / 61M   WARN    General                 (pair_info_count.cpp       : 196)   Estimated mean insert size 208.464 is very small compared to read length 251
+======= Warnings saved to /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/warnings.log

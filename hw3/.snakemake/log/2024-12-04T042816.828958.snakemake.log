@@ -1,0 +1,40 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Singularity containers: ignored
+Job stats:
+job       count
+------  -------
+all           1
+spades        1
+total         2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 04:28:17 2024]
+localrule spades:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/SRR31122807_scaffolds.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/SRR31122807_contigs.fasta
+    jobid: 4
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/SRR31122807_contigs.fasta
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+[Wed Dec  4 04:28:17 2024]
+Error in rule spades:
+    jobid: 4
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/SRR31122807_scaffolds.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/SRR31122807_contigs.fasta
+    shell:
+        spades.py -1 /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz -2 /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz -o /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-12-04T042816.828958.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

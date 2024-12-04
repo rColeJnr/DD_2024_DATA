@@ -1,0 +1,6 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+ChildIOException:
+File/directory is a child to another output:
+('/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3', abricate)
+('/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz', fastqc_trimming)

@@ -1,0 +1,26 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job         count
+--------  -------
+abricate        1
+all             1
+total           2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 05:28:51 2024]
+localrule abricate:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024.gbf, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024.gff, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024.fsa, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024.fna
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/abricate/results.tab
+    jobid: 7
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/abricate/results.tab
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+RuleException in rule abricate in file /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/Snakefile, line 117:
+AttributeError: 'InputFiles' object has no attribute 'in_*', when formatting the following:
+abricate --db ncbi --db resfinder --quiet {input.in_*} > results.tab -o {params.output_dir}

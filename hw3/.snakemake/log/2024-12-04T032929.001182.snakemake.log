@@ -1,0 +1,72 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Relative file path './test_data/SRR31122807_1.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Relative file path './test_data/SRR31122807_2.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Relative file path './test_data/SRR31122807_1.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Relative file path './test_data/SRR31122807_2.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job                count
+---------------  -------
+all                    1
+fastqc_raw             1
+fastqc_trimmed         1
+fastqc_trimming        1
+total                  4
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Dec  4 03:29:29 2024]
+localrule fastqc_trimming:
+    input: ./test_data/SRR31122807_1.fastq.gz, ./test_data/SRR31122807_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/covid_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/covid_trim_2.fastq.gz
+    jobid: 2
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/covid_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/covid_trim_2.fastq.gz
+    wildcards: sample=covid
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+
+[Wed Dec  4 03:29:29 2024]
+localrule fastqc_raw:
+    input: ./test_data/SRR31122807_1.fastq.gz, ./test_data/SRR31122807_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_1_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_1_fastqc.zip, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_2_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_2_fastqc.zip
+    jobid: 1
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_1_fastqc.html
+    wildcards: sample=covid
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+[Wed Dec  4 03:29:31 2024]
+Finished job 2.
+1 of 4 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 03:29:31 2024]
+localrule fastqc_trimmed:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/covid_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/covid_trim_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_trim_1_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_trim_1_fastqc.zip, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_trim_2_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_trim_2_fastqc.zip
+    jobid: 3
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_trim_1_fastqc.html; Input files updated by another job: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/covid_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/covid_trim_2.fastq.gz
+    wildcards: sample=covid
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule fastqc_raw in file /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/Snakefile, line 24:
+Job 1  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_1_fastqc.html (missing locally, parent dir contents: SRR31122807_trim_2_fastqc.zip, SRR31122807_trim_1_fastqc.html, covid_trim_1_fastqc.zip, SRR31122807_1_fastqc.zip, SRR31122807_trim_2_fastqc.html, SRR31122807_1_fastqc.html, covid_trim_2_fastqc.html, covid_trim_2_fastqc.zip, SRR31122807_2_fastqc.zip, covid_trim_1_fastqc.html, SRR31122807_2_fastqc.html, SRR31122807_trim_1_fastqc.zip)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_1_fastqc.zip (missing locally, parent dir contents: SRR31122807_trim_2_fastqc.zip, SRR31122807_trim_1_fastqc.html, covid_trim_1_fastqc.zip, SRR31122807_1_fastqc.zip, SRR31122807_trim_2_fastqc.html, SRR31122807_1_fastqc.html, covid_trim_2_fastqc.html, covid_trim_2_fastqc.zip, SRR31122807_2_fastqc.zip, covid_trim_1_fastqc.html, SRR31122807_2_fastqc.html, SRR31122807_trim_1_fastqc.zip)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_2_fastqc.html (missing locally, parent dir contents: SRR31122807_trim_2_fastqc.zip, SRR31122807_trim_1_fastqc.html, covid_trim_1_fastqc.zip, SRR31122807_1_fastqc.zip, SRR31122807_trim_2_fastqc.html, SRR31122807_1_fastqc.html, covid_trim_2_fastqc.html, covid_trim_2_fastqc.zip, SRR31122807_2_fastqc.zip, covid_trim_1_fastqc.html, SRR31122807_2_fastqc.html, SRR31122807_trim_1_fastqc.zip)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/covid_2_fastqc.zip (missing locally, parent dir contents: SRR31122807_trim_2_fastqc.zip, SRR31122807_trim_1_fastqc.html, covid_trim_1_fastqc.zip, SRR31122807_1_fastqc.zip, SRR31122807_trim_2_fastqc.html, SRR31122807_1_fastqc.html, covid_trim_2_fastqc.html, covid_trim_2_fastqc.zip, SRR31122807_2_fastqc.zip, covid_trim_1_fastqc.html, SRR31122807_2_fastqc.html, SRR31122807_trim_1_fastqc.zip)
+[Wed Dec  4 03:29:40 2024]
+Finished job 3.
+2 of 4 steps (50%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-12-04T032929.001182.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

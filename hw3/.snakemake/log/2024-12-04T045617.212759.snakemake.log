@@ -1,0 +1,14 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules quast and prokka are ambiguous for the file /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/report.html.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+	quast: 
+	prokka: 
+Expected input files:
+	quast: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta
+	prokka: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta
+Expected output files:
+	quast: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/report.html /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/icarus.html
+	prokka: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/report.html /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/icarus.html

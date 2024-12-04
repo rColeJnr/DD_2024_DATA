@@ -1,0 +1,43 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Singularity containers: ignored
+Job stats:
+job               count
+--------------  -------
+all                   1
+fastqc_trimmed        1
+total                 2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 04:23:42 2024]
+localrule fastqc_trimmed:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_trim_1_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_trim_1_fastqc.zip, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_trim_2_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_trim_2_fastqc.zip
+    jobid: 3
+    reason: Software environment definition has changed since last execution
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+[Wed Dec  4 04:23:47 2024]
+Finished job 3.
+1 of 2 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 04:23:47 2024]
+localrule all:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_1_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_trim_1_fastqc.html
+    jobid: 0
+    reason: Input files updated by another job: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_trim_1_fastqc.html
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+[Wed Dec  4 04:23:47 2024]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2024-12-04T042341.266786.snakemake.log

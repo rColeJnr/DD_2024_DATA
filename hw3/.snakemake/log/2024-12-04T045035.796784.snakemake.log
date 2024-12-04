@@ -1,0 +1,33 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count
+-----  -------
+all          1
+quast        1
+total        2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 04:50:35 2024]
+localrule quast:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/contigs.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/scaffolds.fasta
+    jobid: 5
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/contigs.fasta
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule quast in file /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/Snakefile, line 87:
+Job 5  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/contigs.fasta (missing locally, parent dir contents: genome_stats, transposed_report.txt, transposed_report.tex, icarus.html, basic_stats, aligned_stats, transposed_report.tsv, report.tex, report.txt, report.tsv, contigs_reports, icarus_viewers, report.html, quast.log)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/scaffolds.fasta (missing locally, parent dir contents: genome_stats, transposed_report.txt, transposed_report.tex, icarus.html, basic_stats, aligned_stats, transposed_report.tsv, report.tex, report.txt, report.tsv, contigs_reports, icarus_viewers, report.html, quast.log)
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-12-04T045035.796784.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

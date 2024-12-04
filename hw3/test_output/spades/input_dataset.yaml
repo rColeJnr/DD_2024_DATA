@@ -1,0 +1,7 @@
+- "left reads":
+  - "/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz"
+  "type": "paired-end"

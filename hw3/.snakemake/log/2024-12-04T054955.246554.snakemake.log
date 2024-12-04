@@ -1,0 +1,72 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+  + Exception Group Traceback (most recent call last):
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/cli.py", line 2156, in args_to_api
+  |     dag_api.execute_workflow(
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/api.py", line 595, in execute_workflow
+  |     workflow.execute(
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/workflow.py", line 1123, in execute
+  |     self._build_dag()
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/workflow.py", line 1071, in _build_dag
+  |     async_run(self.dag.init())
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/common/__init__.py", line 90, in async_run
+  |     return asyncio.run(coroutine)
+  |            ^^^^^^^^^^^^^^^^^^^^^^
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/asyncio/runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/asyncio/runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/dag.py", line 225, in init
+  |     await self.check_incomplete()
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/dag.py", line 496, in check_incomplete
+  |     incomplete = await self.incomplete_files()
+  |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/dag.py", line 596, in incomplete_files
+  |     is_incomplete = await self.workflow.persistence.incomplete(job)
+  |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/persistence.py", line 385, in incomplete
+  |     async with asyncio.TaskGroup() as tg:
+  |                ^^^^^^^^^^^^^^^^^^^
+
+  |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/asyncio/taskgroups.py", line 145, in __aexit__
+  |     raise me from None
+
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+
+  +-+---------------- 1 ----------------
+
+    | Traceback (most recent call last):
+
+    |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/persistence.py", line 382, in is_incomplete
+    |     marked = marked_incomplete(f)
+    |              ^^^^^^^^^^^^^^^^^^^^
+
+    |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/persistence.py", line 377, in marked_incomplete
+    |     rec_path = self._record_path(self._incomplete_path, f)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    |   File "/opt/homebrew/Caskroom/miniconda/base/envs/snakemake/lib/python3.12/site-packages/snakemake/persistence.py", line 717, in _record_path
+    |     b64id = ["@" + s for s in b64id[:-1]] + [b64id[-1]]
+    |                                              ~~~~~^^^^
+
+    | IndexError: list index out of range
+
+    +------------------------------------
+

@@ -1,0 +1,13 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Relative file path './test_data/SRR31122807_1.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Relative file path './test_data/SRR31122807_2.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Relative file path './test_data/SRR31122807_1.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+Relative file path './test_data/SRR31122807_2.fastq.gz' starts with './'. This is redundant and strongly discouraged. It can also lead to inconsistent results of the file-matching approach used by Snakemake. You can simply omit the './' for relative file paths.
+InputFunctionException in rule fastqc_trimming in file /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/Snakefile, line 42:
+Error:
+  KeyError: 'SRR31122807'
+Wildcards:
+  sample=SRR31122807
+Traceback:
+  File "/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/Snakefile", line 44, in <lambda> (rule fastqc_trimming, line 68, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/Snakefile)

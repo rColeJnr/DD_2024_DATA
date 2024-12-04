@@ -1,0 +1,162 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: ec_start
+- STAGE: Read error correction
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/corrected/configs/config.info
+  config_dir: corrected
+  del_after:
+  - tmp/hammer_cr3bwylx
+  output_files:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/corrected/corrected.yaml
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/bin/spades-hammer
+  short_name: ec_runtool
+- STAGE: corrected reads compression
+  args:
+  - /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/share/spades/spades_pipeline/scripts/compress_all.py
+  - --input_file
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/corrected/corrected.yaml
+  - --ext_python_modules_home
+  - /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/share/spades
+  - --max_threads
+  - '16'
+  - --output_dir
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/corrected
+  - --gzip_output
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/bin/python3
+  short_name: ec_compress
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: ec_finish
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K21/configs/config.info
+  config_dir: K21
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/bin/spades-core
+  short_name: k21
+- STAGE: K33
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K33/configs/config.info
+  config_dir: K33
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/bin/spades-core
+  short_name: k33
+- STAGE: K55
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K55/configs/config.info
+  config_dir: K55
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/bin/spades-core
+  short_name: k55
+- STAGE: K77
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K77/configs/config.info
+  config_dir: K77
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/bin/spades-core
+  short_name: k77
+- STAGE: K99
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K99/configs/config.info
+  config_dir: K99
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/bin/spades-core
+  short_name: k99
+- STAGE: K127
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K127/configs/config.info
+  config_dir: K127
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/bin/spades-core
+  short_name: k127
+- STAGE: Copy files
+  args:
+  - /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/share/spades/spades_pipeline/scripts/copy_files.py
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K127/before_rr.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/before_rr.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K127/assembly_graph_after_simplification.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/assembly_graph_after_simplification.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K127/final_contigs.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K127/first_pe_contigs.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/first_pe_contigs.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K127/strain_graph.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/strain_graph.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K127/scaffolds.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K127/scaffolds.paths
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.paths
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K127/assembly_graph_with_scaffolds.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/assembly_graph_with_scaffolds.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K127/assembly_graph.fastg
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/assembly_graph.fastg
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/K127/final_contigs.paths
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_ttcxkcvl
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/bin/python3
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/scaffolds.fasta
+  - --misc_dir
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/snakemake/bin/python3
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  output_files: []
+  path: 'true'
+  short_name: terminate

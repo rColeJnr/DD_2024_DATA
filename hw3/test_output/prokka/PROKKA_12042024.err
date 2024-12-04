@@ -1,0 +1,1066 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:39 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 39 present
+DISC_COUNT_NUCLEOTIDES:84 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:39 features have inconsistent gene locations.
+SHORT_CONTIG:23 contigs are shorter than 200 nt.
+ZERO_BASECOUNT:6 sequences have a zero basecount for a nucleotide
+NO_ANNOTATION:67 bioseqs have no features
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:84 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:2 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:84 bioseqs are missing GenomeAssembly structured comments
+SHORT_SEQUENCES_200:23 sequences are shorter than 200 bp.
+MOLTYPE_NOT_MRNA:84 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:84 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:84 sequences do not include structured comments.
+MISSING_PROJECT:123 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+DISC_GAPS:1 sequences contain gaps
+SEQ_ID_PHRASES:Sequence Ids contain unacceptable phrases (cov_, length, node, paired, or trimmed)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::39 proteins halid nvalid IDs.
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_1 (length 125)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_2 (length 153)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_3 (length 118)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_4 (length 50)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_5 (length 1272)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_6 (length 2595)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_1 (length 2166)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_2 (length 84)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_3 (length 154)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_4 (length 589)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_5 (length 310)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_6 (length 318)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_7 (length 241)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_8 (length 391)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_9 (length 71)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_10 (length 139)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_1 (length 416)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_2 (length 121)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_3 (length 121)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_4 (length 61)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_5 (length 222)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_6 (length 275)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_7 (length 892)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665_1 (length 115)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665_2 (length 56)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665_3 (length 68)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_5_length_2183_cov_2.365759_1 (length 34)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_6_length_1658_cov_4.044415_1 (length 169)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_9_length_851_cov_0.838398_1 (length 255)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_11_length_810_cov_0.941435_1 (length 119)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_13_length_728_cov_1.427621_1 (length 86)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_17_length_586_cov_0.793028_1 (length 56)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_25_length_468_cov_1.134897_1 (length 46)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_29_length_441_cov_0.789809_1 (length 116)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_31_length_433_cov_1.405229_1 (length 114)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_35_length_418_cov_1.580756_1 (length 71)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_41_length_397_cov_0.900000_1 (length 51)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_46_length_392_cov_0.600000_1 (length 81)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_49_length_383_cov_0.746094_1 (length 104)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::84 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::84 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 39 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::84 nucleotide Bioseqs are present
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845 (length 21501, 100 gap)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492 (length 15198)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575 (length 7148)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665 (length 2255)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_5_length_2183_cov_2.365759 (length 2183)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_6_length_1658_cov_4.044415 (length 1658)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_7_length_1093_cov_291.342650 (length 1093)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_8_length_911_cov_1.102041 (length 911)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_9_length_851_cov_0.838398 (length 851)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_10_length_826_cov_1.204578 (length 826)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_11_length_810_cov_0.941435 (length 810)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_12_length_796_cov_1.043348 (length 796)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_13_length_728_cov_1.427621 (length 728)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_14_length_703_cov_1.182292 (length 703)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_15_length_690_cov_0.584369 (length 690)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_16_length_622_cov_2.258586 (length 622)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_17_length_586_cov_0.793028 (length 586)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_18_length_551_cov_0.570755 (length 551)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_19_length_539_cov_1.502427 (length 539)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_20_length_525_cov_1.763819 (length 525)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_21_length_520_cov_0.921120 (length 520)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_22_length_513_cov_0.932642 (length 513)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_23_length_510_cov_1.237598 (length 510)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_24_length_494_cov_0.899183 (length 494)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_25_length_468_cov_1.134897 (length 468)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_26_length_465_cov_1.272189 (length 465)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_27_length_461_cov_0.736527 (length 461)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_28_length_443_cov_0.753165 (length 443)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_29_length_441_cov_0.789809 (length 441)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_30_length_439_cov_0.682692 (length 439)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_31_length_433_cov_1.405229 (length 433)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_32_length_431_cov_0.815789 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_33_length_431_cov_0.776316 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_34_length_421_cov_0.697279 (length 421)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_35_length_418_cov_1.580756 (length 418)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_36_length_417_cov_0.672414 (length 417)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_37_length_409_cov_1.510638 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_38_length_409_cov_0.755319 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_39_length_404_cov_0.855596 (length 404)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_40_length_399_cov_0.900735 (length 399)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_41_length_397_cov_0.900000 (length 397)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_42_length_396_cov_0.858736 (length 396)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_43_length_395_cov_0.925373 (length 395)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_44_length_393_cov_0.909774 (length 393)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_45_length_392_cov_0.705660 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_46_length_392_cov_0.600000 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_47_length_390_cov_1.794677 (length 390)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_48_length_389_cov_0.935115 (length 389)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_49_length_383_cov_0.746094 (length 383)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_50_length_380_cov_0.956522 (length 380)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_51_length_335_cov_598.158654 (length 335)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_52_length_250_cov_67.577236 (length 250)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_53_length_247_cov_349.441667 (length 247)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_54_length_237_cov_163.454545 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_55_length_237_cov_26.609091 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_56_length_207_cov_95.162500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_57_length_207_cov_87.487500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_58_length_206_cov_257.468354 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_59_length_206_cov_51.113924 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_60_length_203_cov_10.473684 (length 203)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_61_length_201_cov_191.094595 (length 201)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_62_length_191_cov_82.828125 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_63_length_191_cov_50.781250 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_64_length_181_cov_84.592593 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_65_length_181_cov_50.037037 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_66_length_181_cov_34.629630 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_67_length_181_cov_22.148148 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_68_length_179_cov_17.500000 (length 179)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_69_length_176_cov_539.061224 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_70_length_176_cov_103.367347 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_71_length_175_cov_72.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_72_length_175_cov_28.687500 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_73_length_175_cov_23.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_74_length_152_cov_714.120000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_75_length_152_cov_104.240000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_76_length_152_cov_82.280000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_77_length_145_cov_227.277778 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_78_length_145_cov_27.111111 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_79_length_134_cov_1088.285714 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_80_length_134_cov_159.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_81_length_134_cov_90.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_82_length_134_cov_8.142857 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::39 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_1_length_21501_cov_467.179845:c1737-1360	CBHMGLPA_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_1_length_21501_cov_467.179845:c2720-2259	CBHMGLPA_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_1_length_21501_cov_467.179845:c6512-6156	CBHMGLPA_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_1_length_21501_cov_467.179845:c8918-8766	CBHMGLPA_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Replicase polyprotein 1a	NODE_1_length_21501_cov_467.179845:9534-13352	CBHMGLPA_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Replicase polyprotein 1ab	NODE_1_length_21501_cov_467.179845:13637-21424	CBHMGLPA_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	RNA-directed RNA polymerase L	NODE_2_length_15198_cov_4.966492:c6707-207	CBHMGLPA_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_2_length_15198_cov_4.966492:c7027-6773	CBHMGLPA_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Matrix M2-1	NODE_2_length_15198_cov_4.966492:c7475-7011	CBHMGLPA_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Fusion glycoprotein F0	NODE_2_length_15198_cov_4.966492:c9594-7825	CBHMGLPA_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Major surface glycoprotein G	NODE_2_length_15198_cov_4.966492:c10579-9647	CBHMGLPA_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Matrix protein	NODE_2_length_15198_cov_4.966492:c12190-11234	CBHMGLPA_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Phosphoprotein	NODE_2_length_15198_cov_4.966492:c12919-12194	CBHMGLPA_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Nucleoprotein	NODE_2_length_15198_cov_4.966492:c14127-12952	CBHMGLPA_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_2_length_15198_cov_4.966492:c14718-14503	CBHMGLPA_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Non-structural protein 1	NODE_2_length_15198_cov_4.966492:c15166-14747	CBHMGLPA_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Nucleoprotein	NODE_3_length_7148_cov_337.665575:c1563-313	CBHMGLPA_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_3_length_7148_cov_337.665575:c1943-1578	CBHMGLPA_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Protein 7a	NODE_3_length_7148_cov_337.665575:c2443-2078	CBHMGLPA_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_3_length_7148_cov_337.665575:c2635-2450	CBHMGLPA_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Membrane protein	NODE_3_length_7148_cov_337.665575:c3314-2646	CBHMGLPA_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Protein 3a	NODE_3_length_7148_cov_337.665575:c4444-3617	CBHMGLPA_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	Spike glycoprotein	NODE_3_length_7148_cov_337.665575:c7131-4453	CBHMGLPA_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_4_length_2255_cov_2.403665:c993-646	CBHMGLPA_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_4_length_2255_cov_2.403665:1655-1825	CBHMGLPA_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_4_length_2255_cov_2.403665:1792-1998	CBHMGLPA_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_5_length_2183_cov_2.365759:c1479-1375	CBHMGLPA_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_6_length_1658_cov_4.044415:626-1135	CBHMGLPA_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_9_length_851_cov_0.838398:c802-35	CBHMGLPA_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_11_length_810_cov_0.941435:c529-170	CBHMGLPA_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_13_length_728_cov_1.427621:c488-228	CBHMGLPA_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_17_length_586_cov_0.793028:c211-41	CBHMGLPA_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_25_length_468_cov_1.134897:17-157	CBHMGLPA_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_29_length_441_cov_0.789809:c351-1	CBHMGLPA_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_31_length_433_cov_1.405229:c385-41	CBHMGLPA_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_35_length_418_cov_1.580756:c352-137	CBHMGLPA_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_41_length_397_cov_0.900000:187-342	CBHMGLPA_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_46_length_392_cov_0.600000:c369-124	CBHMGLPA_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:CDS	hypothetical protein	NODE_49_length_383_cov_0.746094:c358-44	CBHMGLPA_00039
+
+DiscRep_ALL:SHORT_CONTIG::23 contigs are shorter than 200 nt.
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_62_length_191_cov_82.828125 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_63_length_191_cov_50.781250 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_64_length_181_cov_84.592593 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_65_length_181_cov_50.037037 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_66_length_181_cov_34.629630 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_67_length_181_cov_22.148148 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_68_length_179_cov_17.500000 (length 179)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_69_length_176_cov_539.061224 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_70_length_176_cov_103.367347 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_71_length_175_cov_72.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_72_length_175_cov_28.687500 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_73_length_175_cov_23.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_74_length_152_cov_714.120000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_75_length_152_cov_104.240000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_76_length_152_cov_82.280000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_77_length_145_cov_227.277778 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_78_length_145_cov_27.111111 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_79_length_134_cov_1088.285714 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_80_length_134_cov_159.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_81_length_134_cov_90.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_82_length_134_cov_8.142857 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_ALL:ZERO_BASECOUNT::6 sequences have a zero basecount for a nucleotide
+DiscRep_SUB:ZERO_BASECOUNT::2 sequences have no As
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_SUB:ZERO_BASECOUNT::1 sequences have no Ts
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+
+DiscRep_SUB:ZERO_BASECOUNT::1 sequences have no Gs
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_SUB:ZERO_BASECOUNT::2 sequences have no Cs
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_ALL:NO_ANNOTATION::67 bioseqs have no features
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_7_length_1093_cov_291.342650 (length 1093)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_8_length_911_cov_1.102041 (length 911)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_10_length_826_cov_1.204578 (length 826)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_12_length_796_cov_1.043348 (length 796)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_14_length_703_cov_1.182292 (length 703)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_15_length_690_cov_0.584369 (length 690)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_16_length_622_cov_2.258586 (length 622)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_18_length_551_cov_0.570755 (length 551)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_19_length_539_cov_1.502427 (length 539)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_20_length_525_cov_1.763819 (length 525)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_21_length_520_cov_0.921120 (length 520)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_22_length_513_cov_0.932642 (length 513)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_23_length_510_cov_1.237598 (length 510)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_24_length_494_cov_0.899183 (length 494)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_26_length_465_cov_1.272189 (length 465)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_27_length_461_cov_0.736527 (length 461)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_28_length_443_cov_0.753165 (length 443)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_30_length_439_cov_0.682692 (length 439)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_32_length_431_cov_0.815789 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_33_length_431_cov_0.776316 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_34_length_421_cov_0.697279 (length 421)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_36_length_417_cov_0.672414 (length 417)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_37_length_409_cov_1.510638 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_38_length_409_cov_0.755319 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_39_length_404_cov_0.855596 (length 404)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_40_length_399_cov_0.900735 (length 399)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_42_length_396_cov_0.858736 (length 396)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_43_length_395_cov_0.925373 (length 395)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_44_length_393_cov_0.909774 (length 393)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_45_length_392_cov_0.705660 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_47_length_390_cov_1.794677 (length 390)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_48_length_389_cov_0.935115 (length 389)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_50_length_380_cov_0.956522 (length 380)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_51_length_335_cov_598.158654 (length 335)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_52_length_250_cov_67.577236 (length 250)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_53_length_247_cov_349.441667 (length 247)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_54_length_237_cov_163.454545 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_55_length_237_cov_26.609091 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_56_length_207_cov_95.162500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_57_length_207_cov_87.487500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_58_length_206_cov_257.468354 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_59_length_206_cov_51.113924 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_60_length_203_cov_10.473684 (length 203)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_61_length_201_cov_191.094595 (length 201)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_62_length_191_cov_82.828125 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_63_length_191_cov_50.781250 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_64_length_181_cov_84.592593 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_65_length_181_cov_50.037037 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_66_length_181_cov_34.629630 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_67_length_181_cov_22.148148 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_68_length_179_cov_17.500000 (length 179)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_69_length_176_cov_539.061224 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_70_length_176_cov_103.367347 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_71_length_175_cov_72.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_72_length_175_cov_28.687500 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_73_length_175_cov_23.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_74_length_152_cov_714.120000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_75_length_152_cov_104.240000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_76_length_152_cov_82.280000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_77_length_145_cov_227.277778 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_78_length_145_cov_27.111111 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_79_length_134_cov_1088.285714 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_80_length_134_cov_159.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_81_length_134_cov_90.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_82_length_134_cov_8.142857 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::84 comment descriptors were found (all same)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_5_length_2183_cov_2.365759:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_6_length_1658_cov_4.044415:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_7_length_1093_cov_291.342650:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_8_length_911_cov_1.102041:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_9_length_851_cov_0.838398:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_10_length_826_cov_1.204578:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_11_length_810_cov_0.941435:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_12_length_796_cov_1.043348:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_13_length_728_cov_1.427621:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_14_length_703_cov_1.182292:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_15_length_690_cov_0.584369:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_16_length_622_cov_2.258586:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_17_length_586_cov_0.793028:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_18_length_551_cov_0.570755:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_19_length_539_cov_1.502427:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_20_length_525_cov_1.763819:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_21_length_520_cov_0.921120:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_22_length_513_cov_0.932642:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_23_length_510_cov_1.237598:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_24_length_494_cov_0.899183:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_25_length_468_cov_1.134897:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_26_length_465_cov_1.272189:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_27_length_461_cov_0.736527:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_28_length_443_cov_0.753165:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_29_length_441_cov_0.789809:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_30_length_439_cov_0.682692:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_31_length_433_cov_1.405229:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_32_length_431_cov_0.815789:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_33_length_431_cov_0.776316:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_34_length_421_cov_0.697279:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_35_length_418_cov_1.580756:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_36_length_417_cov_0.672414:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_37_length_409_cov_1.510638:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_38_length_409_cov_0.755319:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_39_length_404_cov_0.855596:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_40_length_399_cov_0.900735:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_41_length_397_cov_0.900000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_42_length_396_cov_0.858736:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_43_length_395_cov_0.925373:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_44_length_393_cov_0.909774:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_45_length_392_cov_0.705660:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_46_length_392_cov_0.600000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_47_length_390_cov_1.794677:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_48_length_389_cov_0.935115:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_49_length_383_cov_0.746094:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_50_length_380_cov_0.956522:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_51_length_335_cov_598.158654:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_52_length_250_cov_67.577236:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_53_length_247_cov_349.441667:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_54_length_237_cov_163.454545:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_55_length_237_cov_26.609091:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_56_length_207_cov_95.162500:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_57_length_207_cov_87.487500:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_58_length_206_cov_257.468354:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_59_length_206_cov_51.113924:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_60_length_203_cov_10.473684:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_61_length_201_cov_191.094595:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_62_length_191_cov_82.828125:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_63_length_191_cov_50.781250:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_64_length_181_cov_84.592593:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_65_length_181_cov_50.037037:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_66_length_181_cov_34.629630:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_67_length_181_cov_22.148148:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_68_length_179_cov_17.500000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_69_length_176_cov_539.061224:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_70_length_176_cov_103.367347:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_71_length_175_cov_72.229167:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_72_length_175_cov_28.687500:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_73_length_175_cov_23.229167:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_74_length_152_cov_714.120000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_75_length_152_cov_104.240000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_76_length_152_cov_82.280000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_77_length_145_cov_227.277778:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_78_length_145_cov_27.111111:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_79_length_134_cov_1088.285714:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_80_length_134_cov_159.571429:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_81_length_134_cov_90.571429:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_82_length_134_cov_8.142857:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::2 protein sequences are shorter than 50 aa.
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_5_length_2183_cov_2.365759_1 (length 34)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_25_length_468_cov_1.134897_1 (length 46)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::84 bioseqs are missing GenomeAssembly structured comments
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845 (length 21501, 100 gap)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492 (length 15198)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575 (length 7148)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665 (length 2255)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_5_length_2183_cov_2.365759 (length 2183)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_6_length_1658_cov_4.044415 (length 1658)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_7_length_1093_cov_291.342650 (length 1093)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_8_length_911_cov_1.102041 (length 911)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_9_length_851_cov_0.838398 (length 851)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_10_length_826_cov_1.204578 (length 826)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_11_length_810_cov_0.941435 (length 810)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_12_length_796_cov_1.043348 (length 796)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_13_length_728_cov_1.427621 (length 728)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_14_length_703_cov_1.182292 (length 703)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_15_length_690_cov_0.584369 (length 690)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_16_length_622_cov_2.258586 (length 622)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_17_length_586_cov_0.793028 (length 586)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_18_length_551_cov_0.570755 (length 551)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_19_length_539_cov_1.502427 (length 539)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_20_length_525_cov_1.763819 (length 525)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_21_length_520_cov_0.921120 (length 520)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_22_length_513_cov_0.932642 (length 513)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_23_length_510_cov_1.237598 (length 510)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_24_length_494_cov_0.899183 (length 494)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_25_length_468_cov_1.134897 (length 468)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_26_length_465_cov_1.272189 (length 465)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_27_length_461_cov_0.736527 (length 461)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_28_length_443_cov_0.753165 (length 443)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_29_length_441_cov_0.789809 (length 441)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_30_length_439_cov_0.682692 (length 439)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_31_length_433_cov_1.405229 (length 433)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_32_length_431_cov_0.815789 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_33_length_431_cov_0.776316 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_34_length_421_cov_0.697279 (length 421)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_35_length_418_cov_1.580756 (length 418)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_36_length_417_cov_0.672414 (length 417)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_37_length_409_cov_1.510638 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_38_length_409_cov_0.755319 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_39_length_404_cov_0.855596 (length 404)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_40_length_399_cov_0.900735 (length 399)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_41_length_397_cov_0.900000 (length 397)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_42_length_396_cov_0.858736 (length 396)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_43_length_395_cov_0.925373 (length 395)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_44_length_393_cov_0.909774 (length 393)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_45_length_392_cov_0.705660 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_46_length_392_cov_0.600000 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_47_length_390_cov_1.794677 (length 390)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_48_length_389_cov_0.935115 (length 389)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_49_length_383_cov_0.746094 (length 383)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_50_length_380_cov_0.956522 (length 380)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_51_length_335_cov_598.158654 (length 335)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_52_length_250_cov_67.577236 (length 250)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_53_length_247_cov_349.441667 (length 247)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_54_length_237_cov_163.454545 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_55_length_237_cov_26.609091 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_56_length_207_cov_95.162500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_57_length_207_cov_87.487500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_58_length_206_cov_257.468354 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_59_length_206_cov_51.113924 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_60_length_203_cov_10.473684 (length 203)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_61_length_201_cov_191.094595 (length 201)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_62_length_191_cov_82.828125 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_63_length_191_cov_50.781250 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_64_length_181_cov_84.592593 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_65_length_181_cov_50.037037 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_66_length_181_cov_34.629630 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_67_length_181_cov_22.148148 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_68_length_179_cov_17.500000 (length 179)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_69_length_176_cov_539.061224 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_70_length_176_cov_103.367347 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_71_length_175_cov_72.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_72_length_175_cov_28.687500 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_73_length_175_cov_23.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_74_length_152_cov_714.120000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_75_length_152_cov_104.240000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_76_length_152_cov_82.280000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_77_length_145_cov_227.277778 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_78_length_145_cov_27.111111 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_79_length_134_cov_1088.285714 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_80_length_134_cov_159.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_81_length_134_cov_90.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_82_length_134_cov_8.142857 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_ALL:SHORT_SEQUENCES_200::23 sequences are shorter than 200 bp.
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_62_length_191_cov_82.828125 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_63_length_191_cov_50.781250 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_64_length_181_cov_84.592593 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_65_length_181_cov_50.037037 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_66_length_181_cov_34.629630 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_67_length_181_cov_22.148148 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_68_length_179_cov_17.500000 (length 179)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_69_length_176_cov_539.061224 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_70_length_176_cov_103.367347 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_71_length_175_cov_72.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_72_length_175_cov_28.687500 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_73_length_175_cov_23.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_74_length_152_cov_714.120000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_75_length_152_cov_104.240000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_76_length_152_cov_82.280000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_77_length_145_cov_227.277778 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_78_length_145_cov_27.111111 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_79_length_134_cov_1088.285714 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_80_length_134_cov_159.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_81_length_134_cov_90.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_82_length_134_cov_8.142857 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::84 molecule types are not set as mRNA.
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845 (length 21501, 100 gap)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492 (length 15198)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575 (length 7148)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665 (length 2255)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_5_length_2183_cov_2.365759 (length 2183)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_6_length_1658_cov_4.044415 (length 1658)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_7_length_1093_cov_291.342650 (length 1093)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_8_length_911_cov_1.102041 (length 911)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_9_length_851_cov_0.838398 (length 851)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_10_length_826_cov_1.204578 (length 826)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_11_length_810_cov_0.941435 (length 810)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_12_length_796_cov_1.043348 (length 796)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_13_length_728_cov_1.427621 (length 728)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_14_length_703_cov_1.182292 (length 703)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_15_length_690_cov_0.584369 (length 690)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_16_length_622_cov_2.258586 (length 622)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_17_length_586_cov_0.793028 (length 586)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_18_length_551_cov_0.570755 (length 551)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_19_length_539_cov_1.502427 (length 539)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_20_length_525_cov_1.763819 (length 525)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_21_length_520_cov_0.921120 (length 520)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_22_length_513_cov_0.932642 (length 513)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_23_length_510_cov_1.237598 (length 510)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_24_length_494_cov_0.899183 (length 494)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_25_length_468_cov_1.134897 (length 468)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_26_length_465_cov_1.272189 (length 465)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_27_length_461_cov_0.736527 (length 461)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_28_length_443_cov_0.753165 (length 443)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_29_length_441_cov_0.789809 (length 441)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_30_length_439_cov_0.682692 (length 439)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_31_length_433_cov_1.405229 (length 433)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_32_length_431_cov_0.815789 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_33_length_431_cov_0.776316 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_34_length_421_cov_0.697279 (length 421)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_35_length_418_cov_1.580756 (length 418)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_36_length_417_cov_0.672414 (length 417)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_37_length_409_cov_1.510638 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_38_length_409_cov_0.755319 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_39_length_404_cov_0.855596 (length 404)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_40_length_399_cov_0.900735 (length 399)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_41_length_397_cov_0.900000 (length 397)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_42_length_396_cov_0.858736 (length 396)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_43_length_395_cov_0.925373 (length 395)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_44_length_393_cov_0.909774 (length 393)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_45_length_392_cov_0.705660 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_46_length_392_cov_0.600000 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_47_length_390_cov_1.794677 (length 390)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_48_length_389_cov_0.935115 (length 389)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_49_length_383_cov_0.746094 (length 383)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_50_length_380_cov_0.956522 (length 380)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_51_length_335_cov_598.158654 (length 335)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_52_length_250_cov_67.577236 (length 250)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_53_length_247_cov_349.441667 (length 247)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_54_length_237_cov_163.454545 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_55_length_237_cov_26.609091 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_56_length_207_cov_95.162500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_57_length_207_cov_87.487500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_58_length_206_cov_257.468354 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_59_length_206_cov_51.113924 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_60_length_203_cov_10.473684 (length 203)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_61_length_201_cov_191.094595 (length 201)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_62_length_191_cov_82.828125 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_63_length_191_cov_50.781250 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_64_length_181_cov_84.592593 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_65_length_181_cov_50.037037 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_66_length_181_cov_34.629630 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_67_length_181_cov_22.148148 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_68_length_179_cov_17.500000 (length 179)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_69_length_176_cov_539.061224 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_70_length_176_cov_103.367347 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_71_length_175_cov_72.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_72_length_175_cov_28.687500 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_73_length_175_cov_23.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_74_length_152_cov_714.120000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_75_length_152_cov_104.240000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_76_length_152_cov_82.280000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_77_length_145_cov_227.277778 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_78_length_145_cov_27.111111 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_79_length_134_cov_1088.285714 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_80_length_134_cov_159.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_81_length_134_cov_90.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_82_length_134_cov_8.142857 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::84 technique are not set as TSA
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845 (length 21501, 100 gap)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492 (length 15198)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575 (length 7148)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665 (length 2255)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_5_length_2183_cov_2.365759 (length 2183)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_6_length_1658_cov_4.044415 (length 1658)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_7_length_1093_cov_291.342650 (length 1093)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_8_length_911_cov_1.102041 (length 911)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_9_length_851_cov_0.838398 (length 851)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_10_length_826_cov_1.204578 (length 826)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_11_length_810_cov_0.941435 (length 810)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_12_length_796_cov_1.043348 (length 796)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_13_length_728_cov_1.427621 (length 728)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_14_length_703_cov_1.182292 (length 703)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_15_length_690_cov_0.584369 (length 690)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_16_length_622_cov_2.258586 (length 622)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_17_length_586_cov_0.793028 (length 586)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_18_length_551_cov_0.570755 (length 551)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_19_length_539_cov_1.502427 (length 539)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_20_length_525_cov_1.763819 (length 525)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_21_length_520_cov_0.921120 (length 520)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_22_length_513_cov_0.932642 (length 513)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_23_length_510_cov_1.237598 (length 510)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_24_length_494_cov_0.899183 (length 494)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_25_length_468_cov_1.134897 (length 468)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_26_length_465_cov_1.272189 (length 465)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_27_length_461_cov_0.736527 (length 461)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_28_length_443_cov_0.753165 (length 443)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_29_length_441_cov_0.789809 (length 441)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_30_length_439_cov_0.682692 (length 439)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_31_length_433_cov_1.405229 (length 433)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_32_length_431_cov_0.815789 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_33_length_431_cov_0.776316 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_34_length_421_cov_0.697279 (length 421)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_35_length_418_cov_1.580756 (length 418)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_36_length_417_cov_0.672414 (length 417)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_37_length_409_cov_1.510638 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_38_length_409_cov_0.755319 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_39_length_404_cov_0.855596 (length 404)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_40_length_399_cov_0.900735 (length 399)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_41_length_397_cov_0.900000 (length 397)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_42_length_396_cov_0.858736 (length 396)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_43_length_395_cov_0.925373 (length 395)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_44_length_393_cov_0.909774 (length 393)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_45_length_392_cov_0.705660 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_46_length_392_cov_0.600000 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_47_length_390_cov_1.794677 (length 390)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_48_length_389_cov_0.935115 (length 389)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_49_length_383_cov_0.746094 (length 383)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_50_length_380_cov_0.956522 (length 380)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_51_length_335_cov_598.158654 (length 335)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_52_length_250_cov_67.577236 (length 250)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_53_length_247_cov_349.441667 (length 247)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_54_length_237_cov_163.454545 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_55_length_237_cov_26.609091 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_56_length_207_cov_95.162500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_57_length_207_cov_87.487500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_58_length_206_cov_257.468354 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_59_length_206_cov_51.113924 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_60_length_203_cov_10.473684 (length 203)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_61_length_201_cov_191.094595 (length 201)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_62_length_191_cov_82.828125 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_63_length_191_cov_50.781250 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_64_length_181_cov_84.592593 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_65_length_181_cov_50.037037 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_66_length_181_cov_34.629630 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_67_length_181_cov_22.148148 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_68_length_179_cov_17.500000 (length 179)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_69_length_176_cov_539.061224 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_70_length_176_cov_103.367347 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_71_length_175_cov_72.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_72_length_175_cov_28.687500 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_73_length_175_cov_23.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_74_length_152_cov_714.120000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_75_length_152_cov_104.240000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_76_length_152_cov_82.280000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_77_length_145_cov_227.277778 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_78_length_145_cov_27.111111 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_79_length_134_cov_1088.285714 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_80_length_134_cov_159.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_81_length_134_cov_90.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_82_length_134_cov_8.142857 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::84 sequences do not include structured comments.
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845 (length 21501, 100 gap)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492 (length 15198)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575 (length 7148)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665 (length 2255)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_5_length_2183_cov_2.365759 (length 2183)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_6_length_1658_cov_4.044415 (length 1658)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_7_length_1093_cov_291.342650 (length 1093)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_8_length_911_cov_1.102041 (length 911)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_9_length_851_cov_0.838398 (length 851)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_10_length_826_cov_1.204578 (length 826)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_11_length_810_cov_0.941435 (length 810)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_12_length_796_cov_1.043348 (length 796)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_13_length_728_cov_1.427621 (length 728)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_14_length_703_cov_1.182292 (length 703)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_15_length_690_cov_0.584369 (length 690)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_16_length_622_cov_2.258586 (length 622)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_17_length_586_cov_0.793028 (length 586)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_18_length_551_cov_0.570755 (length 551)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_19_length_539_cov_1.502427 (length 539)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_20_length_525_cov_1.763819 (length 525)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_21_length_520_cov_0.921120 (length 520)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_22_length_513_cov_0.932642 (length 513)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_23_length_510_cov_1.237598 (length 510)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_24_length_494_cov_0.899183 (length 494)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_25_length_468_cov_1.134897 (length 468)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_26_length_465_cov_1.272189 (length 465)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_27_length_461_cov_0.736527 (length 461)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_28_length_443_cov_0.753165 (length 443)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_29_length_441_cov_0.789809 (length 441)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_30_length_439_cov_0.682692 (length 439)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_31_length_433_cov_1.405229 (length 433)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_32_length_431_cov_0.815789 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_33_length_431_cov_0.776316 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_34_length_421_cov_0.697279 (length 421)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_35_length_418_cov_1.580756 (length 418)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_36_length_417_cov_0.672414 (length 417)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_37_length_409_cov_1.510638 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_38_length_409_cov_0.755319 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_39_length_404_cov_0.855596 (length 404)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_40_length_399_cov_0.900735 (length 399)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_41_length_397_cov_0.900000 (length 397)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_42_length_396_cov_0.858736 (length 396)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_43_length_395_cov_0.925373 (length 395)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_44_length_393_cov_0.909774 (length 393)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_45_length_392_cov_0.705660 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_46_length_392_cov_0.600000 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_47_length_390_cov_1.794677 (length 390)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_48_length_389_cov_0.935115 (length 389)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_49_length_383_cov_0.746094 (length 383)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_50_length_380_cov_0.956522 (length 380)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_51_length_335_cov_598.158654 (length 335)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_52_length_250_cov_67.577236 (length 250)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_53_length_247_cov_349.441667 (length 247)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_54_length_237_cov_163.454545 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_55_length_237_cov_26.609091 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_56_length_207_cov_95.162500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_57_length_207_cov_87.487500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_58_length_206_cov_257.468354 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_59_length_206_cov_51.113924 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_60_length_203_cov_10.473684 (length 203)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_61_length_201_cov_191.094595 (length 201)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_62_length_191_cov_82.828125 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_63_length_191_cov_50.781250 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_64_length_181_cov_84.592593 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_65_length_181_cov_50.037037 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_66_length_181_cov_34.629630 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_67_length_181_cov_22.148148 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_68_length_179_cov_17.500000 (length 179)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_69_length_176_cov_539.061224 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_70_length_176_cov_103.367347 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_71_length_175_cov_72.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_72_length_175_cov_28.687500 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_73_length_175_cov_23.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_74_length_152_cov_714.120000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_75_length_152_cov_104.240000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_76_length_152_cov_82.280000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_77_length_145_cov_227.277778 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_78_length_145_cov_27.111111 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_79_length_134_cov_1088.285714 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_80_length_134_cov_159.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_81_length_134_cov_90.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_82_length_134_cov_8.142857 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_ALL:MISSING_PROJECT::123 sequences do not include project.
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845 (length 21501, 100 gap)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_1 (length 125)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_2 (length 153)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_3 (length 118)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_4 (length 50)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_5 (length 1272)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845_6 (length 2595)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492 (length 15198)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_1 (length 2166)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_2 (length 84)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_3 (length 154)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_4 (length 589)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_5 (length 310)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_6 (length 318)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_7 (length 241)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_8 (length 391)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_9 (length 71)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492_10 (length 139)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575 (length 7148)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_1 (length 416)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_2 (length 121)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_3 (length 121)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_4 (length 61)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_5 (length 222)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_6 (length 275)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575_7 (length 892)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665 (length 2255)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665_1 (length 115)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665_2 (length 56)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665_3 (length 68)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_5_length_2183_cov_2.365759 (length 2183)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_5_length_2183_cov_2.365759_1 (length 34)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_6_length_1658_cov_4.044415 (length 1658)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_6_length_1658_cov_4.044415_1 (length 169)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_7_length_1093_cov_291.342650 (length 1093)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_8_length_911_cov_1.102041 (length 911)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_9_length_851_cov_0.838398 (length 851)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_9_length_851_cov_0.838398_1 (length 255)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_10_length_826_cov_1.204578 (length 826)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_11_length_810_cov_0.941435 (length 810)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_11_length_810_cov_0.941435_1 (length 119)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_12_length_796_cov_1.043348 (length 796)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_13_length_728_cov_1.427621 (length 728)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_13_length_728_cov_1.427621_1 (length 86)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_14_length_703_cov_1.182292 (length 703)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_15_length_690_cov_0.584369 (length 690)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_16_length_622_cov_2.258586 (length 622)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_17_length_586_cov_0.793028 (length 586)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_17_length_586_cov_0.793028_1 (length 56)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_18_length_551_cov_0.570755 (length 551)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_19_length_539_cov_1.502427 (length 539)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_20_length_525_cov_1.763819 (length 525)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_21_length_520_cov_0.921120 (length 520)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_22_length_513_cov_0.932642 (length 513)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_23_length_510_cov_1.237598 (length 510)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_24_length_494_cov_0.899183 (length 494)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_25_length_468_cov_1.134897 (length 468)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_25_length_468_cov_1.134897_1 (length 46)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_26_length_465_cov_1.272189 (length 465)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_27_length_461_cov_0.736527 (length 461)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_28_length_443_cov_0.753165 (length 443)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_29_length_441_cov_0.789809 (length 441)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_29_length_441_cov_0.789809_1 (length 116)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_30_length_439_cov_0.682692 (length 439)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_31_length_433_cov_1.405229 (length 433)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_31_length_433_cov_1.405229_1 (length 114)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_32_length_431_cov_0.815789 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_33_length_431_cov_0.776316 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_34_length_421_cov_0.697279 (length 421)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_35_length_418_cov_1.580756 (length 418)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_35_length_418_cov_1.580756_1 (length 71)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_36_length_417_cov_0.672414 (length 417)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_37_length_409_cov_1.510638 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_38_length_409_cov_0.755319 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_39_length_404_cov_0.855596 (length 404)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_40_length_399_cov_0.900735 (length 399)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_41_length_397_cov_0.900000 (length 397)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_41_length_397_cov_0.900000_1 (length 51)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_42_length_396_cov_0.858736 (length 396)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_43_length_395_cov_0.925373 (length 395)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_44_length_393_cov_0.909774 (length 393)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_45_length_392_cov_0.705660 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_46_length_392_cov_0.600000 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_46_length_392_cov_0.600000_1 (length 81)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_47_length_390_cov_1.794677 (length 390)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_48_length_389_cov_0.935115 (length 389)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_49_length_383_cov_0.746094 (length 383)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_49_length_383_cov_0.746094_1 (length 104)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_50_length_380_cov_0.956522 (length 380)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_51_length_335_cov_598.158654 (length 335)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_52_length_250_cov_67.577236 (length 250)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_53_length_247_cov_349.441667 (length 247)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_54_length_237_cov_163.454545 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_55_length_237_cov_26.609091 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_56_length_207_cov_95.162500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_57_length_207_cov_87.487500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_58_length_206_cov_257.468354 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_59_length_206_cov_51.113924 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_60_length_203_cov_10.473684 (length 203)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_61_length_201_cov_191.094595 (length 201)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_62_length_191_cov_82.828125 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_63_length_191_cov_50.781250 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_64_length_181_cov_84.592593 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_65_length_181_cov_50.037037 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_66_length_181_cov_34.629630 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_67_length_181_cov_22.148148 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_68_length_179_cov_17.500000 (length 179)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_69_length_176_cov_539.061224 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_70_length_176_cov_103.367347 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_71_length_175_cov_72.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_72_length_175_cov_28.687500 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_73_length_175_cov_23.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_74_length_152_cov_714.120000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_75_length_152_cov_104.240000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_76_length_152_cov_82.280000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_77_length_145_cov_227.277778 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_78_length_145_cov_27.111111 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_79_length_134_cov_1088.285714 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_80_length_134_cov_159.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_81_length_134_cov_90.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_82_length_134_cov_8.142857 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::84 Molinfos are missing field technique
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845 (length 21501, 100 gap)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_2_length_15198_cov_4.966492 (length 15198)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_3_length_7148_cov_337.665575 (length 7148)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_4_length_2255_cov_2.403665 (length 2255)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_5_length_2183_cov_2.365759 (length 2183)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_6_length_1658_cov_4.044415 (length 1658)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_7_length_1093_cov_291.342650 (length 1093)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_8_length_911_cov_1.102041 (length 911)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_9_length_851_cov_0.838398 (length 851)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_10_length_826_cov_1.204578 (length 826)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_11_length_810_cov_0.941435 (length 810)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_12_length_796_cov_1.043348 (length 796)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_13_length_728_cov_1.427621 (length 728)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_14_length_703_cov_1.182292 (length 703)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_15_length_690_cov_0.584369 (length 690)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_16_length_622_cov_2.258586 (length 622)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_17_length_586_cov_0.793028 (length 586)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_18_length_551_cov_0.570755 (length 551)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_19_length_539_cov_1.502427 (length 539)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_20_length_525_cov_1.763819 (length 525)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_21_length_520_cov_0.921120 (length 520)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_22_length_513_cov_0.932642 (length 513)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_23_length_510_cov_1.237598 (length 510)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_24_length_494_cov_0.899183 (length 494)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_25_length_468_cov_1.134897 (length 468)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_26_length_465_cov_1.272189 (length 465)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_27_length_461_cov_0.736527 (length 461)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_28_length_443_cov_0.753165 (length 443)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_29_length_441_cov_0.789809 (length 441)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_30_length_439_cov_0.682692 (length 439)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_31_length_433_cov_1.405229 (length 433)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_32_length_431_cov_0.815789 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_33_length_431_cov_0.776316 (length 431)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_34_length_421_cov_0.697279 (length 421)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_35_length_418_cov_1.580756 (length 418)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_36_length_417_cov_0.672414 (length 417)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_37_length_409_cov_1.510638 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_38_length_409_cov_0.755319 (length 409)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_39_length_404_cov_0.855596 (length 404)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_40_length_399_cov_0.900735 (length 399)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_41_length_397_cov_0.900000 (length 397)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_42_length_396_cov_0.858736 (length 396)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_43_length_395_cov_0.925373 (length 395)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_44_length_393_cov_0.909774 (length 393)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_45_length_392_cov_0.705660 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_46_length_392_cov_0.600000 (length 392)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_47_length_390_cov_1.794677 (length 390)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_48_length_389_cov_0.935115 (length 389)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_49_length_383_cov_0.746094 (length 383)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_50_length_380_cov_0.956522 (length 380)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_51_length_335_cov_598.158654 (length 335)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_52_length_250_cov_67.577236 (length 250)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_53_length_247_cov_349.441667 (length 247)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_54_length_237_cov_163.454545 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_55_length_237_cov_26.609091 (length 237)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_56_length_207_cov_95.162500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_57_length_207_cov_87.487500 (length 207)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_58_length_206_cov_257.468354 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_59_length_206_cov_51.113924 (length 206)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_60_length_203_cov_10.473684 (length 203)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_61_length_201_cov_191.094595 (length 201)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_62_length_191_cov_82.828125 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_63_length_191_cov_50.781250 (length 191)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_64_length_181_cov_84.592593 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_65_length_181_cov_50.037037 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_66_length_181_cov_34.629630 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_67_length_181_cov_22.148148 (length 181)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_68_length_179_cov_17.500000 (length 179)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_69_length_176_cov_539.061224 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_70_length_176_cov_103.367347 (length 176)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_71_length_175_cov_72.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_72_length_175_cov_28.687500 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_73_length_175_cov_23.229167 (length 175)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_74_length_152_cov_714.120000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_75_length_152_cov_104.240000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_76_length_152_cov_82.280000 (length 152)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_77_length_145_cov_227.277778 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_78_length_145_cov_27.111111 (length 145)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_79_length_134_cov_1088.285714 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_80_length_134_cov_159.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_81_length_134_cov_90.571429 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_82_length_134_cov_8.142857 (length 134)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_83_length_128_cov_170.000000 (length 128)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_84_length_128_cov_4.000000 (length 128)
+
+DiscRep_ALL:DISC_GAPS::1 sequences contain gaps
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/prokka/PROKKA_12042024:NODE_1_length_21501_cov_467.179845 (length 21501, 100 gap)
+
+DiscRep_ALL:SEQ_ID_PHRASES::Sequence Ids contain unacceptable phrases (cov_, length, node, paired, or trimmed)
+

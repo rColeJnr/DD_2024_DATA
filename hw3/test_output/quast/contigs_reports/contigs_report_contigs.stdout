@@ -1,0 +1,222 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [NODE_1_length_21501_cov_467.179845]
+	Loaded [NODE_2_length_15198_cov_4.966492]
+	Loaded [NODE_3_length_7148_cov_337.665575]
+	Loaded [NODE_4_length_2255_cov_2.403665]
+	Loaded [NODE_5_length_2183_cov_2.365759]
+	Loaded [NODE_6_length_1658_cov_4.044415]
+	Loaded [NODE_7_length_1093_cov_291.342650]
+	Loaded [NODE_8_length_911_cov_1.102041]
+	Loaded [NODE_9_length_851_cov_0.838398]
+	Loaded [NODE_10_length_826_cov_1.204578]
+	Loaded [NODE_11_length_810_cov_0.941435]
+	Loaded [NODE_12_length_796_cov_1.043348]
+	Loaded [NODE_13_length_728_cov_1.427621]
+	Loaded [NODE_14_length_703_cov_1.182292]
+	Loaded [NODE_15_length_690_cov_0.584369]
+	Loaded [NODE_16_length_622_cov_2.258586]
+	Loaded [NODE_17_length_586_cov_0.793028]
+	Loaded [NODE_18_length_551_cov_0.570755]
+	Loaded [NODE_19_length_539_cov_1.502427]
+	Loaded [NODE_20_length_525_cov_1.763819]
+	Loaded [NODE_21_length_520_cov_0.921120]
+	Loaded [NODE_22_length_513_cov_0.932642]
+	Loaded [NODE_23_length_510_cov_1.237598]
+	Loaded [NODE_24_length_494_cov_0.899183]
+	Loaded [NODE_25_length_468_cov_1.134897]
+	Loaded [NODE_26_length_465_cov_1.272189]
+	Loaded [NODE_27_length_461_cov_0.736527]
+	Loaded [NODE_28_length_443_cov_0.753165]
+	Loaded [NODE_29_length_441_cov_0.789809]
+	Loaded [NODE_30_length_439_cov_0.682692]
+	Loaded [NODE_31_length_433_cov_1.405229]
+	Loaded [NODE_32_length_431_cov_0.815789]
+	Loaded [NODE_33_length_431_cov_0.776316]
+	Loaded [NODE_34_length_421_cov_0.697279]
+	Loaded [NODE_35_length_418_cov_1.580756]
+	Loaded [NODE_36_length_417_cov_0.672414]
+	Loaded [NODE_37_length_409_cov_1.510638]
+	Loaded [NODE_38_length_409_cov_0.755319]
+	Loaded [NODE_39_length_404_cov_0.855596]
+	Loaded [NODE_40_length_399_cov_0.900735]
+	Loaded [NODE_41_length_397_cov_0.900000]
+	Loaded [NODE_42_length_396_cov_0.858736]
+	Loaded [NODE_43_length_395_cov_0.925373]
+	Loaded [NODE_44_length_393_cov_0.909774]
+	Loaded [NODE_45_length_392_cov_0.705660]
+	Loaded [NODE_46_length_392_cov_0.600000]
+	Loaded [NODE_47_length_390_cov_1.794677]
+	Loaded [NODE_48_length_389_cov_0.935115]
+	Loaded [NODE_49_length_383_cov_0.746094]
+	Loaded [NODE_50_length_380_cov_0.956522]
+	Loaded [NODE_51_length_335_cov_598.158654]
+	Loaded [NODE_52_length_250_cov_67.577236]
+	Loaded [NODE_53_length_247_cov_349.441667]
+	Loaded [NODE_54_length_237_cov_163.454545]
+	Loaded [NODE_55_length_237_cov_26.609091]
+	Loaded [NODE_56_length_207_cov_95.162500]
+	Loaded [NODE_57_length_207_cov_87.487500]
+	Loaded [NODE_58_length_206_cov_257.468354]
+	Loaded [NODE_59_length_206_cov_51.113924]
+	Loaded [NODE_60_length_203_cov_10.473684]
+	Loaded [NODE_61_length_201_cov_191.094595]
+	Loaded [NODE_62_length_191_cov_82.828125]
+	Loaded [NODE_63_length_191_cov_50.781250]
+	Loaded [NODE_64_length_181_cov_84.592593]
+	Loaded [NODE_65_length_181_cov_50.037037]
+	Loaded [NODE_66_length_181_cov_34.629630]
+	Loaded [NODE_67_length_181_cov_22.148148]
+	Loaded [NODE_68_length_179_cov_17.500000]
+	Loaded [NODE_69_length_176_cov_539.061224]
+	Loaded [NODE_70_length_176_cov_103.367347]
+	Loaded [NODE_71_length_175_cov_72.229167]
+	Loaded [NODE_72_length_175_cov_28.687500]
+	Loaded [NODE_73_length_175_cov_23.229167]
+	Loaded [NODE_74_length_152_cov_714.120000]
+	Loaded [NODE_75_length_152_cov_104.240000]
+	Loaded [NODE_76_length_152_cov_82.280000]
+	Loaded [NODE_77_length_145_cov_227.277778]
+	Loaded [NODE_78_length_145_cov_27.111111]
+	Loaded [NODE_79_length_134_cov_1088.285714]
+	Loaded [NODE_80_length_134_cov_159.571429]
+	Loaded [NODE_81_length_134_cov_90.571429]
+	Loaded [NODE_82_length_134_cov_8.142857]
+	Loaded [NODE_83_length_128_cov_170.000000]
+	Loaded [NODE_84_length_128_cov_4.000000]
+	Total Regions: 84
+	Total Region Length: 79243
+Analyzing contigs...
+CONTIG: NODE_1_length_15198_cov_4.966492 (15198bp)
+Best alignment score: 15198.0 (LEN: 15198, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 15198 | 1 15198 | 15198 15198 | 100.0 | NODE_2_length_15198_cov_4.966492 NODE_1_length_15198_cov_4.966492
+
+CONTIG: NODE_2_length_12089_cov_509.963468 (12089bp)
+Best alignment score: 12089.0 (LEN: 12089, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 9413 21501 | 1 12089 | 12089 12089 | 100.0 | NODE_1_length_21501_cov_467.179845 NODE_2_length_12089_cov_509.963468
+
+CONTIG: NODE_3_length_9312_cov_423.006968 (9312bp)
+Best alignment score: 9312.0 (LEN: 9312, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 9312 | 1 9312 | 9312 9312 | 100.0 | NODE_1_length_21501_cov_467.179845 NODE_3_length_9312_cov_423.006968
+
+CONTIG: NODE_4_length_7148_cov_337.665575 (7148bp)
+Best alignment score: 7148.0 (LEN: 7148, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 7148 | 1 7148 | 7148 7148 | 100.0 | NODE_3_length_7148_cov_337.665575 NODE_4_length_7148_cov_337.665575
+
+CONTIG: NODE_5_length_2255_cov_2.403665 (2255bp)
+Best alignment score: 2255.0 (LEN: 2255, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 2255 | 1 2255 | 2255 2255 | 100.0 | NODE_4_length_2255_cov_2.403665 NODE_5_length_2255_cov_2.403665
+
+CONTIG: NODE_6_length_2183_cov_2.365759 (2183bp)
+Best alignment score: 2183.0 (LEN: 2183, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 2183 | 1 2183 | 2183 2183 | 100.0 | NODE_5_length_2183_cov_2.365759 NODE_6_length_2183_cov_2.365759
+
+CONTIG: NODE_7_length_1658_cov_4.044415 (1658bp)
+Best alignment score: 1658.0 (LEN: 1658, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 1658 | 1 1658 | 1658 1658 | 100.0 | NODE_6_length_1658_cov_4.044415 NODE_7_length_1658_cov_4.044415
+
+CONTIG: NODE_8_length_1093_cov_291.342650 (1093bp)
+Best alignment score: 1093.0 (LEN: 1093, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 1093 | 1 1093 | 1093 1093 | 100.0 | NODE_7_length_1093_cov_291.342650 NODE_8_length_1093_cov_291.342650
+
+CONTIG: NODE_9_length_911_cov_1.102041 (911bp)
+Best alignment score: 911.0 (LEN: 911, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 911 | 1 911 | 911 911 | 100.0 | NODE_8_length_911_cov_1.102041 NODE_9_length_911_cov_1.102041
+
+CONTIG: NODE_10_length_851_cov_0.838398 (851bp)
+Best alignment score: 851.0 (LEN: 851, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 851 | 1 851 | 851 851 | 100.0 | NODE_9_length_851_cov_0.838398 NODE_10_length_851_cov_0.838398
+
+CONTIG: NODE_11_length_826_cov_1.204578 (826bp)
+Best alignment score: 826.0 (LEN: 826, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 826 | 1 826 | 826 826 | 100.0 | NODE_10_length_826_cov_1.204578 NODE_11_length_826_cov_1.204578
+
+CONTIG: NODE_12_length_810_cov_0.941435 (810bp)
+Best alignment score: 810.0 (LEN: 810, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 810 | 1 810 | 810 810 | 100.0 | NODE_11_length_810_cov_0.941435 NODE_12_length_810_cov_0.941435
+
+CONTIG: NODE_13_length_796_cov_1.043348 (796bp)
+Best alignment score: 796.0 (LEN: 796, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 796 | 1 796 | 796 796 | 100.0 | NODE_12_length_796_cov_1.043348 NODE_13_length_796_cov_1.043348
+
+CONTIG: NODE_14_length_728_cov_1.427621 (728bp)
+Best alignment score: 728.0 (LEN: 728, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 728 | 1 728 | 728 728 | 100.0 | NODE_13_length_728_cov_1.427621 NODE_14_length_728_cov_1.427621
+
+CONTIG: NODE_15_length_703_cov_1.182292 (703bp)
+Best alignment score: 703.0 (LEN: 703, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 703 | 1 703 | 703 703 | 100.0 | NODE_14_length_703_cov_1.182292 NODE_15_length_703_cov_1.182292
+
+CONTIG: NODE_16_length_690_cov_0.584369 (690bp)
+Best alignment score: 690.0 (LEN: 690, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 690 | 1 690 | 690 690 | 100.0 | NODE_15_length_690_cov_0.584369 NODE_16_length_690_cov_0.584369
+
+CONTIG: NODE_17_length_622_cov_2.258586 (622bp)
+Best alignment score: 622.0 (LEN: 622, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 622 | 1 622 | 622 622 | 100.0 | NODE_16_length_622_cov_2.258586 NODE_17_length_622_cov_2.258586
+
+CONTIG: NODE_18_length_586_cov_0.793028 (586bp)
+Best alignment score: 586.0 (LEN: 586, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 586 | 1 586 | 586 586 | 100.0 | NODE_17_length_586_cov_0.793028 NODE_18_length_586_cov_0.793028
+
+CONTIG: NODE_19_length_551_cov_0.570755 (551bp)
+Best alignment score: 551.0 (LEN: 551, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 551 | 1 551 | 551 551 | 100.0 | NODE_18_length_551_cov_0.570755 NODE_19_length_551_cov_0.570755
+
+CONTIG: NODE_20_length_539_cov_1.502427 (539bp)
+Best alignment score: 539.0 (LEN: 539, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 539 | 1 539 | 539 539 | 100.0 | NODE_19_length_539_cov_1.502427 NODE_20_length_539_cov_1.502427
+
+CONTIG: NODE_21_length_525_cov_1.763819 (525bp)
+Best alignment score: 525.0 (LEN: 525, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 525 | 1 525 | 525 525 | 100.0 | NODE_20_length_525_cov_1.763819 NODE_21_length_525_cov_1.763819
+
+CONTIG: NODE_22_length_520_cov_0.921120 (520bp)
+Best alignment score: 520.0 (LEN: 520, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 520 | 1 520 | 520 520 | 100.0 | NODE_21_length_520_cov_0.921120 NODE_22_length_520_cov_0.921120
+
+CONTIG: NODE_23_length_513_cov_0.932642 (513bp)
+Best alignment score: 513.0 (LEN: 513, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 513 | 1 513 | 513 513 | 100.0 | NODE_22_length_513_cov_0.932642 NODE_23_length_513_cov_0.932642
+
+CONTIG: NODE_24_length_510_cov_1.237598 (510bp)
+Best alignment score: 510.0 (LEN: 510, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1 510 | 1 510 | 510 510 | 100.0 | NODE_23_length_510_cov_1.237598 NODE_24_length_510_cov_1.237598
+
+Analyzing coverage...
+Writing SNPs into /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/contigs_reports/minimap_output/contigs.used_snps
+
+Analysis is finished!
+Founded SNPs were written into /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/quast/contigs_reports/minimap_output/contigs.used_snps
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap ("Extra" Aligned Bases): 0
+Unaligned Contigs: 0 + 0 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Bases in Fully and Partially Unaligned Contigs: 0
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+"Extra" Aligned Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used (there is no "extra" aligned bases).
+
+	Covered Bases in Reference: 61617
+	Raw Aligned Bases in Assembly: 61617
+	Total Aligned Bases in Assembly (with "Extras"): 61617
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+

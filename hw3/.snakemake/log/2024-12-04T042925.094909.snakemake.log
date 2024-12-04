@@ -1,0 +1,36 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Singularity containers: ignored
+Job stats:
+job       count
+------  -------
+all           1
+spades        1
+total         2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 04:29:25 2024]
+localrule spades:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/SRR31122807_scaffolds.fasta, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/SRR31122807_contigs.fasta
+    jobid: 4
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/SRR31122807_contigs.fasta
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule spades in file /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/Snakefile, line 78:
+Job 4  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/SRR31122807_scaffolds.fasta (missing locally, parent dir contents: warnings.log, contigs.paths, input_dataset.yaml, misc, K127, contigs.fasta, assembly_graph_after_simplification.gfa, pipeline_state, K33, scaffolds.fasta, K21, scaffolds.paths, before_rr.fasta, params.txt, run_spades.sh, assembly_graph_with_scaffolds.gfa, K99, K55, spades.log, run_spades.yaml, K77, assembly_graph.fastg, tmp, dataset.info, corrected)
+/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/spades/SRR31122807_contigs.fasta (missing locally, parent dir contents: warnings.log, contigs.paths, input_dataset.yaml, misc, K127, contigs.fasta, assembly_graph_after_simplification.gfa, pipeline_state, K33, scaffolds.fasta, K21, scaffolds.paths, before_rr.fasta, params.txt, run_spades.sh, assembly_graph_with_scaffolds.gfa, K99, K55, spades.log, run_spades.yaml, K77, assembly_graph.fastg, tmp, dataset.info, corrected)
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-12-04T042925.094909.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.
