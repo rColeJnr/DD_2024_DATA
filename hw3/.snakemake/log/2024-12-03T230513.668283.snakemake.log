@@ -1,0 +1,40 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+all               1
+fastqc_raw        1
+total             2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec  3 23:05:13 2024]
+localrule fastqc_raw:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_1_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_1_fastqc.zip, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_2_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_2_fastqc.zip
+    jobid: 1
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_1_fastqc.html
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+[Tue Dec  3 23:05:29 2024]
+Finished job 1.
+1 of 2 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec  3 23:05:29 2024]
+localrule all:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_1_fastqc.html
+    jobid: 0
+    reason: Input files updated by another job: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_1_fastqc.html
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+[Tue Dec  3 23:05:29 2024]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2024-12-03T230513.668283.snakemake.log

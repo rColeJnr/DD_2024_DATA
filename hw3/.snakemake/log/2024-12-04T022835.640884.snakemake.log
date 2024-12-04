@@ -1,0 +1,36 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment envs/fastqc.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/./envs/fastqc.yaml:
+Command:
+conda env create --quiet --no-default-packages --file "/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/.snakemake/conda/50e120469b84847ea677123f3774830c_.yaml" --prefix "/Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/.snakemake/conda/50e120469b84847ea677123f3774830c_"
+Output:
+/opt/homebrew/Caskroom/miniconda/base/lib/python3.12/argparse.py:2000: FutureWarning: `remote_definition` is deprecated and will be removed in 25.9. Use `conda env create --file=URL` instead.
+  action(self, namespace, argument_values, option_string)
+Channels:
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - fastqc
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+

@@ -1,0 +1,63 @@
+import os
+import pandas as pandas
+
+# samples_file = os.path.abspath("./samples.csv")
+
+# samples_df = pd.read_csv(samples_file)
+
+# sample_reads = {row['sample_id']: (row['read_1'], row['read_2']) for idx, row in samples_df}
+
+read_1 = os.path.abspath('./test_data/SRR31122807_1.fastq.gz')
+read_2 = os.path.abspath('./test_data/SRR31122807_2.fastq.gz')
+
+fastqc_out = os.path.abspath("./test_output/fastqc")
+fastp_out = os.path.abspath("./test_output/fastp")
+prefix = "SRR31122807"
+prefix_trimmed = "SRR31122807_trim"
+
+rule all:
+    input:
+        fastqc_results = f'{fastqc_out}/{prefix}_1_fastqc.html',
+        fastp_results = f'{fastp_out}/{prefix_trimmed}_1.fastq.gz',
+        fastqc_trim_results = f'{fastqc_out}/{prefix_trimmed}_1_fastqc.html',
+
+rule fastqc_raw:
+    input: 
+        in_1 = read_1,
+        in_2 = read_2
+    conda: "./envs/fastqc.yaml"
+    output:
+        fastqc_raw_out_html_1 = f'{fastqc_out}/{prefix}_1_fastqc.html',
+        fastqc_raw_out_zip_1 = f'{fastqc_out}/{prefix}_1_fastqc.zip',
+        fastqc_raw_out_html_2 = f'{fastqc_out}/{prefix}_2_fastqc.html',
+        fastqc_raw_out_zip_2 = f'{fastqc_out}/{prefix}_2_fastqc.zip'
+    params:
+        fastqc_outdir = fastqc_out
+    shell:
+        "fastqc {input.in_1} {input.in_2} -o {params.fastqc_outdir}"
+
+rule fastqc_trimming:
+    input:
+        in_1 = read_1,
+        in_2 = read_2
+    conda: "./envs/fastqc.yaml"
+    output:
+        fastp_out_1 = f'{fastp_out}/{prefix_trimmed}_1.fastq.gz',
+        fastp_out_2 = f'{fastp_out}/{prefix_trimmed}_2.fastq.gz',
+    shell:
+        "fastp -i {input.in_1} -I {input.in_2} -o {output.fastp_out_1} -O {output.fastp_out_2}"
+
+rule fastqc_trimmed:
+    input: 
+        in_1 = rules.fastqc_trimming.output.fastp_out_1,
+        in_2 = rules.fastqc_trimming.output.fastp_out_2
+    conda: "./envs/fastqc.yaml"
+    output:
+        fastqc_raw_out_html_1 = f'{fastqc_out}/{prefix_trimmed}_1_fastqc.html',
+        fastqc_raw_out_zip_1 = f'{fastqc_out}/{prefix_trimmed}_1_fastqc.zip',
+        fastqc_raw_out_html_2 = f'{fastqc_out}/{prefix_trimmed}_2_fastqc.html',
+        fastqc_raw_out_zip_2 = f'{fastqc_out}/{prefix_trimmed}_2_fastqc.zip'
+    params:
+        fastqc_outdir = fastqc_out
+    shell:
+        "fastqc {input.in_1} {input.in_2} -o {params.fastqc_outdir}"

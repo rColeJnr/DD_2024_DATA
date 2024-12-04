@@ -1,0 +1,26 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+all                    1
+fastqc_trimming        1
+total                  2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 00:32:37 2024]
+localrule fastqc_trimming:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc_trimmed/SRR31122807_trimmed_1_fastqc.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc_trimmed/SRR31122807_trimmed_2_fastqc.gz
+    jobid: 2
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc_trimmed/SRR31122807_trimmed_1_fastqc.gz
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+RuleException in rule fastqc_trimming in file /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/Snakefile, line 30:
+AttributeError: 'OutputFiles' object has no attribute 'fastp_out_1', when formatting the following:
+fastp -i {input.in_1} -i {input.in_2} -o {output.fastp_out_1} -o {output.fastp_out_2}

@@ -1,0 +1,37 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+all                    1
+fastqc_trimming        1
+total                  2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 00:50:48 2024]
+localrule fastqc_trimming:
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1_fastqc.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2_fastqc.gz
+    jobid: 2
+    reason: Missing output files: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1_fastqc.gz
+    resources: tmpdir=/var/folders/yv/90wc6nlx6rq4g0nz67fyyp280000gn/T
+
+[Wed Dec  4 00:50:48 2024]
+Error in rule fastqc_trimming:
+    jobid: 2
+    input: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_1.fastq.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_2.fastq.gz
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1_fastqc.gz, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2_fastqc.gz
+    shell:
+        fastp -I /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_1.fastq.gz -I /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_2.fastq.gz -o /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1_fastqc.gz -o /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_2_fastqc.gz
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-12-04T005048.526693.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

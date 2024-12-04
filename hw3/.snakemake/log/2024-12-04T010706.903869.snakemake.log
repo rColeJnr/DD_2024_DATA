@@ -1,0 +1,6 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+MissingInputException in rule all in file /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/Snakefile, line 11:
+Missing input files for rule all:
+    affected files:
+        /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastp/SRR31122807_trim_1.fastq.gz

@@ -1,0 +1,8 @@
+host: Ricardos-MacBook-Air.local
+Building DAG of jobs...
+MissingInputException in rule fastqc_raw in file /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/Snakefile, line 13:
+Missing input files for rule fastqc_raw:
+    output: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_1_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_1_fastqc.zip, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_2_fastqc.html, /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_output/fastqc/SRR31122807_2_fastqc.zip
+    affected files:
+        /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_2.fastq.gz
+        /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw3/test_data/SRR31122807_1.fastq.gz
