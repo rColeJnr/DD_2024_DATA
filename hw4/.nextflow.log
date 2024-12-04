@@ -1,0 +1,456 @@
+Dec-04 15:13:24.001 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf
+Dec-04 15:13:24.041 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.2
+Dec-04 15:13:24.327 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/rcolejnr/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.2,nf-tower@1.9.3,nf-wave@1.7.4
+Dec-04 15:13:24.338 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Dec-04 15:13:24.339 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Dec-04 15:13:24.340 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Dec-04 15:13:24.349 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Dec-04 15:13:24.362 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/nextflow.config
+Dec-04 15:13:24.364 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/nextflow.config
+Dec-04 15:13:24.382 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/rcolejnr/.nextflow/secrets/store.json
+Dec-04 15:13:24.384 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@7c6442c2] - activable => nextflow.secret.LocalSecretsProvider@7c6442c2
+Dec-04 15:13:24.387 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Dec-04 15:13:24.604 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Dec-04 15:13:24.614 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [gigantic_sammet] DSL2 - revision: e377aca1a0
+Dec-04 15:13:24.615 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Dec-04 15:13:24.616 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Dec-04 15:13:24.654 [main] DEBUG nextflow.Session - Session UUID: 698e5921-9003-40a6-9bd2-f40d2e03ec38
+Dec-04 15:13:24.654 [main] DEBUG nextflow.Session - Run name: gigantic_sammet
+Dec-04 15:13:24.654 [main] DEBUG nextflow.Session - Executor pool size: 8
+Dec-04 15:13:24.664 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Dec-04 15:13:24.668 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Dec-04 15:13:25.050 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.2 build 5932
+  Created: 27-11-2024 21:23 UTC (28-11-2024 00:23 MSD)
+  System: Mac OS X 15.1
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 45009@Ricardos-MacBook-Air.local [192.168.1.102]
+  CPUs: 8 - Mem: 16 GB (63.4 MB) - Swap: 2 GB (1.4 GB)
+Dec-04 15:13:25.079 [main] DEBUG nextflow.Session - Work-dir: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/work [Mac OS X]
+Dec-04 15:13:25.079 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/bin
+Dec-04 15:13:25.091 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Dec-04 15:13:25.099 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Dec-04 15:13:25.116 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Dec-04 15:13:25.124 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Dec-04 15:13:25.160 [main] DEBUG nextflow.Session - Session start
+Dec-04 15:13:25.366 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+Dec-04 15:13:25.369 [main] DEBUG nextflow.Session - 
+Thread[process reaper,10,system]
+  java.base@11.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@11.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+  java.base@11.0.13/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+  java.base@11.0.13/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+  java.base@11.0.13/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+  java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+  java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+  java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  java.base@11.0.13/java.lang.Thread.run(Thread.java:829)
+
+Thread[Common-Cleaner,8,InnocuousThreadGroup]
+  java.base@11.0.13/java.lang.Object.wait(Native Method)
+  java.base@11.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+  java.base@11.0.13/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+  java.base@11.0.13/java.lang.Thread.run(Thread.java:829)
+  java.base@11.0.13/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+
+Thread[Thread-1,5,main]
+  java.base@11.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+  java.base@11.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+  java.base@11.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+  java.base@11.0.13/java.util.concurrent.LinkedBlockingDeque.pollFirst(LinkedBlockingDeque.java:513)
+  java.base@11.0.13/java.util.concurrent.LinkedBlockingDeque.poll(LinkedBlockingDeque.java:675)
+  app//nextflow.util.SimpleAgent.run(SimpleAgent.groovy:89)
+  java.base@11.0.13/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base@11.0.13/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base@11.0.13/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base@11.0.13/java.lang.reflect.Method.invoke(Method.java:566)
+  app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+  app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1207)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+  app//groovy.lang.Closure.call(Closure.java:433)
+  app//groovy.lang.Closure.call(Closure.java:412)
+  app//groovy.lang.Closure.run(Closure.java:505)
+  java.base@11.0.13/java.lang.Thread.run(Thread.java:829)
+
+Thread[AnsiLogObserver,5,main]
+  java.base@11.0.13/java.lang.Object.wait(Native Method)
+  app//nextflow.trace.AnsiLogObserver.render0(AnsiLogObserver.groovy:185)
+  java.base@11.0.13/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base@11.0.13/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base@11.0.13/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base@11.0.13/java.lang.reflect.Method.invoke(Method.java:566)
+  app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+  app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1017)
+  app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1207)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+  app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+  app//groovy.lang.Closure.call(Closure.java:433)
+  app//groovy.lang.Closure.call(Closure.java:412)
+  app//groovy.lang.Closure.run(Closure.java:505)
+  java.base@11.0.13/java.lang.Thread.run(Thread.java:829)
+
+Thread[main,5,main]
+  java.base@11.0.13/java.lang.Thread.dumpThreads(Native Method)
+  java.base@11.0.13/java.lang.Thread.getAllStackTraces(Thread.java:1653)
+  app//nextflow.util.SysHelper.dumpThreads(SysHelper.groovy:188)
+  app//nextflow.Session.abort(Session.groovy:800)
+  app//nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:149)
+  app//nextflow.cli.CmdRun.run(CmdRun.groovy:376)
+  app//nextflow.cli.Launcher.run(Launcher.groovy:503)
+  app//nextflow.cli.Launcher.main(Launcher.groovy:658)
+
+Thread[Signal Dispatcher,9,system]
+
+Thread[Reference Handler,10,system]
+  java.base@11.0.13/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+  java.base@11.0.13/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+  java.base@11.0.13/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+
+Thread[Finalizer,8,system]
+  java.base@11.0.13/java.lang.Object.wait(Native Method)
+  java.base@11.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+  java.base@11.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+  java.base@11.0.13/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+
+Dec-04 15:13:25.373 [main] ERROR nextflow.cli.Launcher - Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 33, column 18.
+               path read_1 = sample.read_1
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 34, column 18.
+               path read_2 = sample.read_2
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 50, column 18.
+               path read_1 = sample.read_1
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 51, column 18.
+               path read_2 = sample.read_2
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 65, column 18.
+               path trimmed_1 = fastqc_trimming.out[0]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 66, column 18.
+               path trimmed_2 = fastqc_trimming.out[1]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 82, column 18.
+               path trimmed_1 = fastqc_trimming.out[0]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 83, column 18.
+               path trimmed_2 = fastqc_trimming.out[1]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 97, column 18.
+               path contigs = spades.out[0]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 98, column 18.
+               path scaffolds = spades.out[1]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 112, column 18.
+               path contigs = spades.out[0]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 113, column 18.
+               path scaffolds = spades.out[1]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 129, column 18.
+               path prokka_gbf = prokka.out[0]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 130, column 18.
+               path prokka_gff = prokka.out[1]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 131, column 18.
+               path prokka_fsa = prokka.out[2]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 132, column 18.
+               path prokka_fna = prokka.out[3]
+                    ^
+
+16 errors
+
+nextflow.exception.ScriptCompilationException: Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 33, column 18.
+               path read_1 = sample.read_1
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 34, column 18.
+               path read_2 = sample.read_2
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 50, column 18.
+               path read_1 = sample.read_1
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 51, column 18.
+               path read_2 = sample.read_2
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 65, column 18.
+               path trimmed_1 = fastqc_trimming.out[0]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 66, column 18.
+               path trimmed_2 = fastqc_trimming.out[1]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 82, column 18.
+               path trimmed_1 = fastqc_trimming.out[0]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 83, column 18.
+               path trimmed_2 = fastqc_trimming.out[1]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 97, column 18.
+               path contigs = spades.out[0]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 98, column 18.
+               path scaffolds = spades.out[1]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 112, column 18.
+               path contigs = spades.out[0]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 113, column 18.
+               path scaffolds = spades.out[1]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 129, column 18.
+               path prokka_gbf = prokka.out[0]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 130, column 18.
+               path prokka_gff = prokka.out[1]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 131, column 18.
+               path prokka_fsa = prokka.out[2]
+                    ^
+
+Script compilation error
+- file : /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/hw4/main.nf
+- cause: unable to resolve class path
+ @ line 132, column 18.
+               path prokka_fna = prokka.out[3]
+                    ^
+
+16 errors
+
+	at nextflow.script.ScriptParser.parse0(ScriptParser.groovy:196)
+	at nextflow.script.ScriptParser.parse(ScriptParser.groovy:206)
+	at nextflow.script.ScriptRunner.parseScript(ScriptRunner.groovy:229)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:136)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:376)
+	at nextflow.cli.Launcher.run(Launcher.groovy:503)
+	at nextflow.cli.Launcher.main(Launcher.groovy:658)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script_67f6bf1ce232c8df: 33: unable to resolve class path
+ @ line 33, column 18.
+               path read_1 = sample.read_1
+                    ^
+
+Script_67f6bf1ce232c8df: 34: unable to resolve class path
+ @ line 34, column 18.
+               path read_2 = sample.read_2
+                    ^
+
+Script_67f6bf1ce232c8df: 50: unable to resolve class path
+ @ line 50, column 18.
+               path read_1 = sample.read_1
+                    ^
+
+Script_67f6bf1ce232c8df: 51: unable to resolve class path
+ @ line 51, column 18.
+               path read_2 = sample.read_2
+                    ^
+
+Script_67f6bf1ce232c8df: 65: unable to resolve class path
+ @ line 65, column 18.
+               path trimmed_1 = fastqc_trimming.out[0]
+                    ^
+
+Script_67f6bf1ce232c8df: 66: unable to resolve class path
+ @ line 66, column 18.
+               path trimmed_2 = fastqc_trimming.out[1]
+                    ^
+
+Script_67f6bf1ce232c8df: 82: unable to resolve class path
+ @ line 82, column 18.
+               path trimmed_1 = fastqc_trimming.out[0]
+                    ^
+
+Script_67f6bf1ce232c8df: 83: unable to resolve class path
+ @ line 83, column 18.
+               path trimmed_2 = fastqc_trimming.out[1]
+                    ^
+
+Script_67f6bf1ce232c8df: 97: unable to resolve class path
+ @ line 97, column 18.
+               path contigs = spades.out[0]
+                    ^
+
+Script_67f6bf1ce232c8df: 98: unable to resolve class path
+ @ line 98, column 18.
+               path scaffolds = spades.out[1]
+                    ^
+
+Script_67f6bf1ce232c8df: 112: unable to resolve class path
+ @ line 112, column 18.
+               path contigs = spades.out[0]
+                    ^
+
+Script_67f6bf1ce232c8df: 113: unable to resolve class path
+ @ line 113, column 18.
+               path scaffolds = spades.out[1]
+                    ^
+
+Script_67f6bf1ce232c8df: 129: unable to resolve class path
+ @ line 129, column 18.
+               path prokka_gbf = prokka.out[0]
+                    ^
+
+Script_67f6bf1ce232c8df: 130: unable to resolve class path
+ @ line 130, column 18.
+               path prokka_gff = prokka.out[1]
+                    ^
+
+Script_67f6bf1ce232c8df: 131: unable to resolve class path
+ @ line 131, column 18.
+               path prokka_fsa = prokka.out[2]
+                    ^
+
+Script_67f6bf1ce232c8df: 132: unable to resolve class path
+ @ line 132, column 18.
+               path prokka_fna = prokka.out[3]
+                    ^
+
+16 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:292)
+	at org.codehaus.groovy.control.CompilationUnit$ISourceUnitOperation.doPhaseOperation(CompilationUnit.java:910)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:692)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:666)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:373)
+	at groovy.lang.GroovyClassLoader.lambda$parseClass$2(GroovyClassLoader.java:316)
+	at org.codehaus.groovy.runtime.memoize.StampedCommonCache.compute(StampedCommonCache.java:163)
+	at org.codehaus.groovy.runtime.memoize.StampedCommonCache.getAndPut(StampedCommonCache.java:154)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:314)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:572)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:585)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:639)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:643)
+	at nextflow.script.ScriptParser.parse0(ScriptParser.groovy:175)
+	... 6 common frames omitted

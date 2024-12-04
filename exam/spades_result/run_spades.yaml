@@ -1,0 +1,150 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after:
+  - tmp/hammer_3e38t_m6
+  - .bin_reads
+  - tmp/spades_qg9ohmff
+  - configs
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: ec_start
+- STAGE: Read error correction
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/corrected/configs/config.info
+  config_dir: corrected
+  del_after:
+  - tmp/hammer_fy530so8
+  output_files:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/corrected/corrected.yaml
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/spades1/bin/spades-hammer
+  short_name: ec_runtool
+- STAGE: corrected reads compression
+  args:
+  - /opt/homebrew/Caskroom/miniconda/base/envs/spades1/share/spades/spades_pipeline/scripts/compress_all.py
+  - --input_file
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/corrected/corrected.yaml
+  - --ext_python_modules_home
+  - /opt/homebrew/Caskroom/miniconda/base/envs/spades1/share/spades
+  - --max_threads
+  - '16'
+  - --output_dir
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/corrected
+  - --gzip_output
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/spades1/bin/python3
+  short_name: ec_compress
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: ec_finish
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K21/configs/config.info
+  config_dir: K21
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/spades1/bin/spades-core
+  short_name: k21
+- STAGE: K33
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K33/configs/config.info
+  config_dir: K33
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/spades1/bin/spades-core
+  short_name: k33
+- STAGE: K55
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K55/configs/config.info
+  config_dir: K55
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/spades1/bin/spades-core
+  short_name: k55
+- STAGE: K77
+  args:
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K77/configs/config.info
+  config_dir: K77
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/spades1/bin/spades-core
+  short_name: k77
+- STAGE: Copy files
+  args:
+  - /opt/homebrew/Caskroom/miniconda/base/envs/spades1/share/spades/spades_pipeline/scripts/copy_files.py
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K77/before_rr.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/before_rr.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K77/assembly_graph_after_simplification.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/assembly_graph_after_simplification.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K77/final_contigs.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/contigs.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K77/first_pe_contigs.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/first_pe_contigs.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K77/strain_graph.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/strain_graph.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K77/scaffolds.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/scaffolds.fasta
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K77/scaffolds.paths
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/scaffolds.paths
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K77/assembly_graph_with_scaffolds.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/assembly_graph_with_scaffolds.gfa
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K77/assembly_graph.fastg
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/assembly_graph.fastg
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/K77/final_contigs.paths
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_oo38uqst
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/spades1/bin/python3
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /opt/homebrew/Caskroom/miniconda/base/envs/spades1/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/scaffolds.fasta
+  - --misc_dir
+  - /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: /opt/homebrew/Caskroom/miniconda/base/envs/spades1/bin/python3
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  output_files: []
+  path: 'true'
+  short_name: terminate

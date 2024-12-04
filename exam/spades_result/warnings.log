@@ -1,0 +1,11 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:00.001     1M / 12M   WARN    General                 (memory_limit.cpp          :  53)   Failed to limit memory to 250 Gb, setrlimit(2) call failed, errno = 22 (Invalid argument). Watch your memory consumption!
+ * 0:00:08.375   153M / 1502M WARN    General                 (kmer_coverage_model.cpp   : 219)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:00:18.509   153M / 1502M WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 1
+ * 0:00:18.510   153M / 1502M WARN    General                 (kmer_coverage_model.cpp   : 367)   Failed to determine erroneous kmer threshold. Threshold set to: 1
+ * 0:00:34.528   181M / 1973M WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 2
+ * 0:00:34.529   181M / 1973M WARN    General                 (kmer_coverage_model.cpp   : 367)   Failed to determine erroneous kmer threshold. Threshold set to: 2
+ * 0:00:24.290   182M / 643M  WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 7
+ * 0:00:24.290   182M / 643M  WARN    General                 (kmer_coverage_model.cpp   : 367)   Failed to determine erroneous kmer threshold. Threshold set to: 7
+======= Warnings saved to /Users/rcolejnr/Documents/School/data_driven/hc2/DD_2024_DATA/exam/spades_result/warnings.log

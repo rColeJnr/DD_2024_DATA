@@ -1,0 +1,11 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+1	766	766	1	NODE_1_length_766_cov_5.105951	NODE_1_length_766_cov_5.105951	100.0		True
+CONTIG	NODE_1_length_766_cov_5.105951	766	correct
+1	618	618	1	NODE_2_length_618_cov_5.670980	NODE_2_length_618_cov_5.670980	100.0		True
+CONTIG	NODE_2_length_618_cov_5.670980	618	correct
+1	604	604	1	NODE_3_length_604_cov_19.157495	NODE_3_length_604_cov_19.157495	100.0		True
+CONTIG	NODE_3_length_604_cov_19.157495	604	correct
+1	587	1	587	NODE_4_length_587_cov_0.992157	NODE_4_length_587_cov_0.992157	100.0		True
+CONTIG	NODE_4_length_587_cov_0.992157	587	correct
+1	533	1	533	NODE_5_length_533_cov_4.416667	NODE_5_length_533_cov_4.416667	100.0		True
+CONTIG	NODE_5_length_533_cov_4.416667	533	correct
